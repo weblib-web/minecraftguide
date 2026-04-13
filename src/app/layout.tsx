@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 };
 
 const navLinks = [
-  { name: "Crafting", href: "/crafting" },
+  { name: "Crafting", href: "/comment-faire" },
   { name: "Enchantements", href: "/enchantement" },
   { name: "Potions", href: "/potion" },
   { name: "Mobs", href: "/mob" },
