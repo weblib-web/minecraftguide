@@ -35,9 +35,6 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  verification: {
-    google: "J8SqS_0p_TsQNREzDwUc6pQS7LRBf8zPI1BIF-EL-X0",
-  },
 };
 
 const navLinks = [
