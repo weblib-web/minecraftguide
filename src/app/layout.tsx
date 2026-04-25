@@ -49,6 +49,7 @@ const navLinks = [
   { name: "Constructions", href: "/construction" },
   { name: "Serveurs", href: "/serveur" },
   { name: "Mods", href: "/mod" },
+  { name: "Blog", href: "/blog" },
 ];
 
 export default function RootLayout({

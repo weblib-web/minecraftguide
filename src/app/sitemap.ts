@@ -16,6 +16,7 @@ import { gameplayPages } from "@/data/gameplay";
 import { buildingPages } from "@/data/building";
 import { serversPages } from "@/data/servers";
 import { modsPages } from "@/data/mods";
+import { blogPosts } from "@/data/blog";
 
 const BASE_URL = "https://minecraftguide.fr";
 
@@ -69,6 +70,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.8,
       });
     }
+  }
+
+  // Blog index
+  entries.push({
+    url: `${BASE_URL}/blog`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.9,
+  });
+
+  // Blog posts
+  for (const post of blogPosts) {
+    entries.push({
+      url: `${BASE_URL}/blog/${post.slug}`,
+      lastModified: new Date(post.dateModified),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    });
   }
 
   return entries;
