@@ -2045,5 +2045,656 @@ export const buildingPages: PageData[] = [
       ],
       relatedSlugs: ["stade-foot", "idees-construction", "gratte-ciel", "pont", "guide-construction"]
     }
+  },
+  {
+    slug: "statue",
+    keyword: "minecraft statue",
+    title: "Statue Minecraft : Guide de Construction",
+    h1: "Comment Construire une Statue dans Minecraft",
+    metaDescription: "Construisez une statue Minecraft : guide complet avec étapes, blocs recommandés et idées (chevalier, dragon, personnage). Pour Java et Bedrock.",
+    category: "building",
+    volume: 1900,
+    content: {
+      intro: "La statue est l'un des projets de construction Minecraft les plus gratifiants : elle structure un paysage, sert de point de repère et impressionne les visiteurs. Que vous vouliez une petite statue de 5 blocs ou un colosse de 100 blocs de haut, la méthode est la même : commencez par un squelette, puis ajoutez la chair. Ce guide vous montre comment passer du croquis à la construction terminée, avec les blocs et les techniques utilisés par les meilleurs builders.",
+      sections: [
+        { heading: "Choisir le sujet et l'échelle", content: "Avant de poser le premier bloc, décidez de la HAUTEUR finale. Une statue humanoïde fait classiquement 20 à 60 blocs : à 20 blocs vous restez sur du décoratif, à 60+ vous entrez dans le territoire des landmarks. Multipliez l'échelle d'un personnage normal par 5 (statue moyenne) à 15 (colosse). Pour le sujet, les valeurs sûres sont : chevalier en armure, dragon, personnage du jeu (Steve, Alex), animal (loup, ours), ou personnage célèbre. Évitez les visages humains réalistes en début, c'est très technique." },
+        { heading: "Construire le squelette en blocs de laine", content: "Commencez TOUJOURS par un squelette en laine colorée : c'est gratuit à casser, ça se voit de loin et ça vous force à fixer les proportions avant de paufiner les détails. Posez d'abord la colonne vertébrale verticale (hauteur totale), puis les bras tendus, les jambes, la tête. Vérifiez les proportions à chaque étape en reculant : la tête doit faire environ 1/7 du corps, les jambes environ la moitié de la hauteur. Une fois satisfait, marchez autour pour voir si elle tient bien sous tous les angles." },
+        { heading: "Habiller la statue avec les bons blocs", content: "Les blocs les plus utilisés pour les statues : pierre taillée et pierre moussue (effet ancien), brique de pierre (chevaliers), terre cuite et béton (couleurs vives), prismarine (sous-marin), netherrack/basalte (volcanique), bois rouge sombre (dragon). Pour les zones courbes, mélangez plusieurs nuances proches (pierre + pierre moussue + pierre fissurée) pour donner de la texture. Les escaliers et les dalles permettent de créer des courbes que les blocs pleins ne peuvent pas. Les blocs en panneaux et clôtures servent pour les détails fins." },
+        { heading: "Détails et finition", content: "Ce qui sépare une statue moyenne d'une excellente : la base et les détails. Construisez un socle en pierre taillée plus large que les pieds. Ajoutez de la mousse et des vignes qui pendent (effet ancien). Pour les yeux, utilisez 1 bloc en lampe à redstone (yeux qui brillent la nuit). Pour les vêtements, mélangez 2-3 couleurs proches au lieu d'une seule. Une cape en laine ou en bannière apporte du mouvement. Enfin, éclairez la statue avec des torches ou des lanternes cachées pour qu'elle reste visible la nuit." }
+      ],
+      tips: ["Commencez TOUJOURS par un squelette en laine pour fixer les proportions", "Une statue humanoïde standard fait 20-30 blocs de haut, un colosse 50+ blocs", "Mélangez pierre, pierre moussue et pierre fissurée pour un effet ancien", "Les escaliers et dalles permettent de créer les courbes du corps", "Éclairez la statue avec des lampes à redstone cachées dans les yeux ou la base"],
+      faq: [
+        { question: "Quelle est la hauteur idéale pour une statue Minecraft ?", answer: "Pour une première statue, visez 25-30 blocs de haut. C'est suffisamment imposant pour être impressionnant sans être ingérable. Une statue de 60+ blocs (colosse) demande plusieurs heures et beaucoup plus de matériaux. Les statues légendaires (Statue de la Liberté, Christ Rédempteur) montent à 80-120 blocs." },
+        { question: "Quels sont les meilleurs blocs pour une statue ?", answer: "Pour une statue ancienne : pierre taillée + pierre moussue + pierre fissurée. Pour un chevalier : brique de pierre + fer + lapis-lazuli. Pour un dragon : netherrack + obsidienne + lampes à redstone. Pour une statue colorée : terre cuite ou béton (16 couleurs disponibles)." },
+        { question: "Faut-il utiliser des mods pour construire une statue ?", answer: "Non, toutes les statues iconiques de Minecraft sont construites en vanilla. WorldEdit (mod ou plugin serveur) accélère la construction des grandes statues mais n'est pas nécessaire. Litematica permet d'importer un schematic existant pour le copier bloc par bloc." }
+      ],
+      relatedSlugs: ["statue-de-la-liberte", "tour-eiffel", "petite-statue", "pagode", "fontaine"]
+    }
+  },
+  {
+    slug: "petite-statue",
+    keyword: "petite statue minecraft",
+    title: "Petite Statue Minecraft : Guide de Construction",
+    h1: "Comment Construire une Petite Statue dans Minecraft",
+    metaDescription: "Construisez une petite statue Minecraft (5-15 blocs) : guide étape par étape avec exemples (animal, chevalier, personnage). Idéal pour décorer une base ou un jardin.",
+    category: "building",
+    volume: 170,
+    content: {
+      intro: "Une petite statue Minecraft, c'est entre 5 et 15 blocs de haut : assez pour décorer une entrée, un jardin ou un toit, sans demander des heures de travail. C'est aussi le format idéal pour s'entraîner avant de se lancer dans une statue colossale. Ce guide propose 5 designs simples (animal, chevalier, axolotl, dragon, personnage) avec les blocs exacts à utiliser et les étapes de construction.",
+      sections: [
+        { heading: "Pourquoi commencer par une petite statue", content: "Les petites statues offrent un excellent ratio temps/résultat : 15-30 minutes de construction pour un élément décoratif marquant. Elles permettent aussi d'apprendre les techniques de proportions et de mélange de blocs sans engager des heures. Une fois plusieurs petites statues réussies, vous serez prêt pour les projets plus ambitieux. Astuce : disposez 3-4 petites statues le long d'une allée pour un effet 'avenue des statues' très puissant visuellement." },
+        { heading: "Statue d'animal (chien, ours, loup) en 8 blocs", content: "Pour un loup ou un chien : posez 4 blocs de pierre en H couché pour le corps, 1 bloc surélevé pour la tête, 2 blocs verticaux pour les pattes avant, 2 pour les pattes arrière. Ajoutez un escalier inversé pour la queue. Couleurs : laine grise pour un loup, laine marron pour un ours, laine blanche pour un husky. Total : 8-12 blocs, 5 minutes de construction." },
+        { heading: "Mini chevalier en 12 blocs", content: "Posez 1 bloc de fer pour les pieds, 3 blocs de fer pour le torse, 1 bloc de fer pour la tête. Ajoutez 2 escaliers en fer pour les épaules. Pour le casque : 1 dalle de fer en surplomb au-dessus de la tête. Pour l'épée : 1 panneau debout sur le côté. Pour le bouclier : 1 bouclier (ou 1 bloc de cuivre carré) accroché. Hauteur totale : 5-6 blocs. Idéal pour garder une porte ou un pont." },
+        { heading: "Mini dragon ou animal mythique", content: "Pour un mini dragon : 3 blocs de netherrack pour le corps allongé, 1 escalier pour la tête, 2 panneaux relevés pour les ailes. Yeux en lampes de redstone (qui brillent la nuit). Pour un mini phénix : utilisez du blackstone et de la pierre rouge avec des lampes de redstone allumées en permanence pour donner l'impression de feu." }
+      ],
+      tips: ["Une petite statue fait 5 à 15 blocs de haut, parfaite pour décorer en peu de temps", "3-4 petites statues alignées créent un effet 'avenue' très spectaculaire", "Utilisez des escaliers et dalles pour les courbes (oreilles, queue, museau)", "Les yeux en lampes de redstone donnent vie à la statue la nuit", "Posez la statue sur un socle de 1-2 blocs pour la mettre en valeur"],
+      faq: [
+        { question: "Quelle est la différence avec une grande statue ?", answer: "Une petite statue (5-15 blocs) demande peu de matériaux et se construit en 15-30 minutes. Une grande statue (30+ blocs) nécessite plusieurs heures, beaucoup plus de matériaux et demande de penser un squelette d'abord. Les petites sont parfaites pour la décoration, les grandes pour les landmarks." },
+        { question: "Combien de blocs pour une petite statue ?", answer: "Comptez 10 à 50 blocs selon le sujet. Un mini animal fait 8-15 blocs, un mini chevalier 12-20 blocs, une mini créature mythique 20-50 blocs. Avec quelques piles de matériaux, vous pouvez construire 5-10 petites statues." },
+        { question: "Peut-on faire une petite statue en survie ?", answer: "Oui, c'est même un excellent projet de survie : matériaux accessibles (pierre, terre cuite, laine), construction rapide. Évitez juste les blocs rares (obsidienne, netherrack si vous n'avez pas accès au Nether) pour vos premières petites statues." }
+      ],
+      relatedSlugs: ["statue", "fontaine", "tour-chateau", "pagode", "tente"]
+    }
+  },
+  {
+    slug: "statue-de-la-liberte",
+    keyword: "statue de la liberté minecraft",
+    title: "Statue de la Liberté Minecraft : Guide de Construction",
+    h1: "Comment Construire la Statue de la Liberté dans Minecraft",
+    metaDescription: "Construisez la Statue de la Liberté dans Minecraft : guide étape par étape avec hauteur, blocs (vert-de-gris) et plan détaillé. Pour Java et Bedrock.",
+    category: "building",
+    volume: 90,
+    content: {
+      intro: "La Statue de la Liberté est l'une des constructions Minecraft les plus iconiques. Avec ses 93 mètres dans la réalité (statue + socle), elle se traduit en environ 90 à 100 blocs en jeu. Ce guide vous donne le plan complet : hauteur, choix des blocs (vert-de-gris caractéristique), socle, robe, flambeau et torche éclairée. Comptez 4 à 8 heures de construction selon votre rythme.",
+      sections: [
+        { heading: "Choisir l'emplacement et calculer la hauteur", content: "La Statue de la Liberté complète (statue + socle) fait environ 93 mètres dans la réalité. En Minecraft, comptez 90-100 blocs de haut total : 35-40 blocs pour le socle en pierre, 50-60 blocs pour la statue elle-même. Choisissez un emplacement dégagé sur une île ou en bord de mer pour reproduire l'effet de Liberty Island. Marquez l'empreinte au sol : la base du socle fait environ 15x15 blocs, le pied de la statue 8x8 blocs." },
+        { heading: "Construire le socle en pierre", content: "Le socle est une pyramide tronquée carrée : 15x15 à la base, 8x8 au sommet, 35-40 blocs de haut. Utilisez de la brique de pierre, de la pierre taillée et des escaliers pour les corniches. Ajoutez 4 colonnes en pierre polie aux angles. Au sommet du socle, créez une plateforme carrée de 10x10 blocs où la statue se posera. Cette étape représente environ 30% du temps total." },
+        { heading: "Construire le corps de la statue en vert-de-gris", content: "Le bloc clé : la couleur 'vert-de-gris' (cuivre oxydé). Utilisez du cuivre oxydé (ou de la laine cyan + lime mélangée si vous n'avez pas accès au cuivre). Construisez d'abord le squelette : colonne vertébrale (50 blocs verticaux), bras gauche tendu vers le ciel (30 blocs), bras droit replié sur le livre. Habillez avec la robe : escaliers et dalles pour les plis. Sculptez le visage avec 5-7 blocs : nez en escalier, front, menton." },
+        { heading: "Couronne, flambeau et tablette", content: "La couronne : 7 pointes en escalier sur le sommet de la tête, alternant escaliers droits et inversés. Le flambeau : prolongez le bras gauche avec 3-4 blocs, puis créez une coupe en escalier inversé qui s'élargit, et terminez par 2-3 blocs de glowstone (la flamme). Pour un effet plus dramatique, ajoutez 2-3 lampes à redstone permanentes. La tablette dans la main droite : 3x4 blocs de béton blanc avec quelques pancartes pour 'graver' la date '4 juillet 1776'." }
+      ],
+      tips: ["Hauteur totale recommandée : 90-100 blocs (35-40 socle + 50-60 statue)", "Le bloc clé : cuivre oxydé (vert-de-gris) ou laine cyan/lime mélangée", "Construisez d'abord le squelette en laine, puis habillez avec les vrais blocs", "Le flambeau brille avec 2-3 blocs de glowstone et lampes à redstone permanentes", "Posez la statue sur une île ou un littoral pour reproduire Liberty Island"],
+      faq: [
+        { question: "Combien de blocs faut-il pour la Statue de la Liberté ?", answer: "Comptez environ 8000-12000 blocs au total : 4000-5000 pour le socle, 3000-4000 pour le corps, 1000-2000 pour les détails (couronne, flambeau, tablette). Le bloc principal est le cuivre oxydé : prévoyez plusieurs stacks complets." },
+        { question: "Combien de temps pour la construire ?", answer: "En vanilla sans aide : 4 à 8 heures pour un joueur expérimenté, 10 à 15 heures pour un débutant. Avec WorldEdit ou Litematica (schematic), 30 à 60 minutes. C'est un projet de week-end." },
+        { question: "Est-ce que le cuivre oxydé est obligatoire ?", answer: "Non, mais c'est le plus fidèle (la vraie statue est en cuivre oxydé vert). Alternative : mélanger laine cyan + laine lime + un peu de prismarine claire. Évitez les blocs trop saturés en vert : la couleur réelle est désaturée, presque grise." }
+      ],
+      relatedSlugs: ["statue", "tour-eiffel", "tour-chateau", "fontaine", "petite-statue"]
+    }
+  },
+  {
+    slug: "fontaine",
+    keyword: "fontaine minecraft",
+    title: "Fontaine Minecraft : Guide de Construction",
+    h1: "Comment Construire une Fontaine dans Minecraft",
+    metaDescription: "Construisez une fontaine Minecraft : 5 designs (simple, médiévale, japonaise, moderne) avec eau qui coule. Guide étape par étape pour Java et Bedrock.",
+    category: "building",
+    volume: 1600,
+    content: {
+      intro: "Une fontaine est l'élément décoratif central qui transforme une place ou un jardin en lieu vivant. En Minecraft, elle combine 3 ingrédients : un socle/bassin en pierre, une structure verticale (souvent une statue ou un pilier), et de l'eau qui coule. Ce guide propose 4 designs (simple, médiévale, moderne, japonaise) avec les blocs exacts et les étapes pas à pas. La fontaine la plus simple se construit en 15 minutes avec 30 blocs.",
+      sections: [
+        { heading: "Anatomie d'une fontaine Minecraft", content: "Toute fontaine a 3 parties : (1) un BASSIN au sol (carré, octogonal ou rond) qui contient l'eau au repos. (2) une STRUCTURE CENTRALE verticale (pilier, statue, arche) d'où l'eau jaillit. (3) une SOURCE D'EAU au sommet qui s'écoule en cascade. La règle d'or : creusez le bassin de 1 bloc de profondeur, posez le centre, mettez la source d'eau au sommet. L'eau s'écoule naturellement vers le bas et remplit le bassin." },
+        { heading: "Fontaine simple en 15 minutes", content: "Creusez un carré 5x5 de 1 bloc de profondeur. Bordez-le avec des escaliers en pierre taillée orientés vers l'intérieur (rebord). Au centre, posez une colonne de 4 blocs de pierre polie. Au sommet, posez 1 seau d'eau : l'eau coule en cascade sur la colonne et remplit le bassin. Total : ~30 blocs, 15 minutes. Pour une variante à 4 jets : ajoutez 4 sources d'eau aux 4 coins du carrelage supérieur." },
+        { heading: "Fontaine médiévale en pierre moussue", content: "Bassin octogonal 7 blocs de diamètre, 2 blocs de profondeur. Murs en brique de pierre + brique de pierre moussue alternées (effet ancien). Au centre : un pilier en pierre taillée + colonne ornée par des panneaux et clôtures, surmonté d'une statue d'animal (lion, dauphin, chevalier) qui crache l'eau. Ajoutez de la mousse, des vignes et quelques nénuphars dans le bassin. Éclairez avec 4 lanternes posées sur les coins." },
+        { heading: "Fontaine moderne en quartz", content: "Bassin rectangulaire 5x9, 1 bloc de profondeur, sol en quartz lisse. Bordure en quartz ciselé. 3 sources d'eau alignées au-dessus du bassin sur 3 piliers de 5 blocs en quartz lisse. L'eau jaillit en 3 cascades parallèles. Pour un effet 'piscine japonaise' : ajoutez de la lave sous une couche de glace sur les bords (effet thermes) — attention, dangereux si on tombe." }
+      ],
+      tips: ["Le bassin doit faire 1 bloc de profondeur minimum pour bien retenir l'eau", "Une SOURCE d'eau (seau placé) coule indéfiniment ; un FLUX simple finit par s'arrêter", "Bordez le bassin avec des escaliers ou des dalles pour un rendu propre", "Les fontaines médiévales gagnent à utiliser pierre moussue + vignes + lanternes", "Pour 4 jets symétriques, posez 4 sources d'eau aux 4 coins du sommet"],
+      faq: [
+        { question: "Pourquoi mon eau ne coule pas correctement ?", answer: "L'eau Minecraft a 7 niveaux de débit. Une SOURCE (seau placé sur un bloc) crée un flux infini. Un FLUX (eau qui coule sans source) s'arrête au bout de 7 blocs. Pour une fontaine, utilisez TOUJOURS une source d'eau au sommet, pas un simple flux." },
+        { question: "Comment éviter que les mobs apparaissent dans le bassin ?", answer: "Éclairez bien autour de la fontaine (lanternes, torches cachées) — au moins niveau 8 de lumière. Les mobs hostiles ne spawnent pas en pleine lumière. Vous pouvez aussi placer des dalles ou des nénuphars sur la surface de l'eau pour bloquer les spawns." },
+        { question: "Peut-on faire une fontaine sans eau qui coule ?", answer: "Oui, certaines fontaines décoratives utilisent juste de l'eau au repos avec une statue centrale. Visuellement plus statique mais plus simple. Pour un effet 'eau qui jaillit sans couler', utilisez des particules en plaçant un bloc de glace au-dessus de la lave (production de gouttelettes)." }
+      ],
+      relatedSlugs: ["fontaine-medievale", "petite-fontaine", "moulin", "statue", "jardin-japonais"]
+    }
+  },
+  {
+    slug: "petite-fontaine",
+    keyword: "petite fontaine minecraft",
+    title: "Petite Fontaine Minecraft : Guide de Construction",
+    h1: "Comment Construire une Petite Fontaine dans Minecraft",
+    metaDescription: "Construisez une petite fontaine Minecraft (3x3) en 5 minutes. Guide simple avec blocs accessibles : pierre, eau, escaliers. Idéale pour décorer une base.",
+    category: "building",
+    volume: 110,
+    content: {
+      intro: "Une petite fontaine 3x3 est le projet décoratif le plus rentable de Minecraft : 5 minutes de construction, 15 blocs accessibles dès le début de partie, et un rendu visuel qui transforme totalement une base. Ce guide donne 3 designs ultra-simples (cube central, pilier, pierre brute) que vous pouvez construire en survie sans préparation.",
+      sections: [
+        { heading: "Design 1 : Fontaine carrée 3x3", content: "Creusez un carré 3x3 de 1 bloc de profondeur. Au centre, posez 1 bloc de pierre polie. Au-dessus, posez 1 seau d'eau : l'eau coule des 4 côtés du bloc central et remplit le bassin. Bordez le bassin avec 8 escaliers en pierre taillée orientés vers l'intérieur. Total : ~15 blocs, 5 minutes." },
+        { heading: "Design 2 : Fontaine pilier 3x3", content: "Même bassin 3x3. Au centre, posez 3 blocs verticaux de pierre polie ou de quartz lisse. Au sommet, 1 seau d'eau. L'eau coule sur le pilier et tombe en cascade. Plus haut visuellement et plus élégant. Variante : remplacez le sommet par 1 dalle inversée + 1 source d'eau dessus pour créer un toit-cascade." },
+        { heading: "Design 3 : Fontaine ronde avec escaliers", content: "Pour un effet rond sans utiliser de mods, alternez 4 blocs et 4 escaliers (orientation extérieure) en bordure d'un carré 3x3. Cela crée une forme octogonale qui ressemble à un cercle vu d'en haut. Au centre, un mini-pilier de 2 blocs avec source d'eau au sommet. Très joli dans un jardin." },
+        { heading: "Personnalisation et mise en scène", content: "Rendez votre petite fontaine unique avec : 4 lanternes posées sur les coins extérieurs (joli la nuit), des nénuphars flottants dans le bassin, un seau d'axolotl dans l'eau (créature passive et colorée), des fleurs plantées tout autour. Variante 'élégante' : remplacez la pierre par du quartz lisse pour un look moderne, ou par de la pierre moussue pour un look ancien." }
+      ],
+      tips: ["Une petite fontaine 3x3 se construit en 5 minutes avec 15 blocs accessibles", "Le bassin doit faire 1 bloc de profondeur minimum pour retenir l'eau", "Une SOURCE d'eau (seau) crée un flux infini, un simple flux s'arrête au bout de 7 blocs", "Posez 4 lanternes aux coins pour un éclairage chaleureux la nuit", "Ajoutez nénuphars et axolotls pour un bassin vivant"],
+      faq: [
+        { question: "Combien de blocs pour une petite fontaine ?", answer: "Entre 10 et 20 blocs : 8 escaliers de bordure, 1-3 blocs centraux, 1 source d'eau, et 4 lanternes optionnelles. C'est l'un des projets les moins coûteux du jeu." },
+        { question: "Quelle taille minimum pour une fontaine ?", answer: "Le minimum technique est 2x2 (1 bloc d'eau central avec 4 escaliers), mais 3x3 est beaucoup plus joli et reste très petit. En dessous de 3x3, la fontaine paraît tassée." },
+        { question: "Faut-il des matériaux rares ?", answer: "Non, tous les blocs nécessaires sont accessibles dès le début : pierre (à miner partout), seau d'eau (3 lingots de fer), escaliers en pierre (faciles à crafter). Une petite fontaine peut se construire en moins d'1 heure de jeu après le spawn." }
+      ],
+      relatedSlugs: ["fontaine", "fontaine-medievale", "moulin", "jardin-japonais", "pagode"]
+    }
+  },
+  {
+    slug: "fontaine-medievale",
+    keyword: "fontaine médiévale minecraft",
+    title: "Fontaine Médiévale Minecraft : Guide de Construction",
+    h1: "Comment Construire une Fontaine Médiévale dans Minecraft",
+    metaDescription: "Fontaine médiévale Minecraft : guide complet avec pierre moussue, statues, mousse et lanternes. Tuto étape par étape pour place de village médiéval.",
+    category: "building",
+    volume: 90,
+    content: {
+      intro: "La fontaine médiévale est la pièce maîtresse de toute place de village Minecraft : pierre moussue ancienne, statue centrale qui crache l'eau, vignes qui pendent, lanternes qui éclairent la nuit. Ce guide détaille un design octogonal de 7 blocs de diamètre avec statue centrale, le tout buildable en 30-45 minutes avec des blocs accessibles en survie.",
+      sections: [
+        { heading: "Tracer la base octogonale", content: "Une fontaine médiévale s'inscrit traditionnellement dans un octogone (8 côtés), pas un carré. Pour tracer : posez 4 blocs alignés en croix (nord/sud/est/ouest) à 3 blocs du centre. Reliez les extrémités en diagonale (3 blocs par côté). Creusez l'intérieur de 2 blocs de profondeur. La base totale fait 7x7 blocs avec les coins coupés. C'est plus joli qu'un carré et caractéristique du style médiéval." },
+        { heading: "Murs en pierre moussue mélangée", content: "Bordure du bassin : alternez brique de pierre, brique de pierre moussue et brique de pierre fissurée (effet ancien). Mur intérieur du bassin : pierre moussue + cobblestone moussue. Profondeur 2 blocs. Au sommet du mur, alternez dalles et escaliers pour un rebord crénelé typiquement médiéval. La diversité des blocs est CRUCIALE pour le rendu : 1 seul type de bloc = look industriel, 3-4 types mélangés = look médiéval crédible." },
+        { heading: "Pilier central et statue", content: "Au centre du bassin, posez une colonne de 5 blocs de brique de pierre. Au sommet, sculptez une petite statue (3-5 blocs) : un dauphin, un lion, un chevalier ou un dragon. Astuce : utilisez un escalier inversé pour la 'gueule' de l'animal, et placez la source d'eau juste devant pour donner l'impression que la statue crache l'eau. La statue centrale doit dépasser le bord du bassin de 2-3 blocs minimum pour bien se voir." },
+        { heading: "Détails d'ambiance médiévale", content: "Vignes qui pendent : placez 2-3 vignes sur les murs du bassin, elles descendent toutes seules. Mousse au sol : tapis de mousse autour de la fontaine, parsemé de fleurs sauvages. Lanternes : 4 lanternes posées sur des poteaux de chêne aux 4 angles cardinaux. Quelques nénuphars dans l'eau. Pour pousser le réalisme : placez quelques tonneaux et étagères en bois autour, comme si des marchands ambulants s'arrêtaient ici." }
+      ],
+      tips: ["Forme octogonale (7x7 avec coins coupés) plus authentiquement médiévale qu'un carré", "Mélangez brique de pierre + pierre moussue + pierre fissurée pour l'effet ancien", "Vignes sur les murs (placement clic droit) + mousse + fleurs autour", "La statue centrale doit dépasser le bord de 2-3 blocs minimum", "Lanternes sur poteaux de chêne aux 4 coins pour l'éclairage de nuit"],
+      faq: [
+        { question: "Quelle différence entre une fontaine moderne et médiévale ?", answer: "Médiévale : pierre moussue, fissurée, formes octogonales/rondes, vignes, statue d'animal mythique, lanternes. Moderne : quartz lisse, formes géométriques nettes (rectangulaire), eaux multiples parallèles, éclairage LED, pas de mousse ni vignes." },
+        { question: "Comment faire pousser de la mousse rapidement ?", answer: "Posez des blocs de mousse, puis utilisez de la poudre d'os : la mousse s'étend en un grand cercle. Vous pouvez aussi laisser pousser naturellement à partir d'un bloc de mousse existant : elle se propage lentement aux blocs adjacents (pierre, terre, racines)." },
+        { question: "Où trouver de la pierre moussue facilement ?", answer: "La pierre moussue se trouve dans les donjons, les ruines de portails du Nether et les avant-postes de pillards. Elle se craft aussi en plaçant un bloc de pierre + de la mousse dans la table de craft. C'est l'un des blocs les plus essentiels pour un look médiéval réussi." }
+      ],
+      relatedSlugs: ["fontaine", "petite-fontaine", "eglise-medievale", "tour-chateau", "moulin-medieval"]
+    }
+  },
+  {
+    slug: "moulin",
+    keyword: "moulin minecraft",
+    title: "Moulin Minecraft : Guide de Construction",
+    h1: "Comment Construire un Moulin dans Minecraft",
+    metaDescription: "Construisez un moulin Minecraft (à vent ou à eau) : guide complet avec ailes rotatives, mécanisme et plan détaillé. Idéal pour décorer un village médiéval.",
+    category: "building",
+    volume: 1300,
+    content: {
+      intro: "Le moulin est l'un des bâtiments les plus iconiques d'un village Minecraft médiéval. Que ce soit un moulin à vent classique avec 4 ailes rotatives ou un moulin à eau avec une roue qui tourne (visuellement, pas mécaniquement), il apporte instantanément une touche pittoresque à n'importe quelle ferme ou village. Ce guide propose les 2 designs avec mesures exactes et liste de blocs.",
+      sections: [
+        { heading: "Choisir entre moulin à vent et moulin à eau", content: "MOULIN À VENT : 4 ailes en haut d'une tour, idéal sur une colline ou en plaine, design classique néerlandais ou français. Plus haut (15-25 blocs), plus visible. MOULIN À EAU : une grande roue verticale au bord d'une rivière, design rural typique, plus discret mais authentique. Choisissez selon le terrain : vent en hauteur, eau près d'une rivière. Vous pouvez aussi en construire 2 différents pour varier." },
+        { heading: "Construire le corps du moulin", content: "Base : carré ou octogone de 5x5 ou 7x7 blocs en brique de pierre + bois de chêne. Hauteur : 6-8 blocs pour le rez-de-chaussée. Toit conique : alternez escaliers et dalles pour créer une pente progressive. Pour un moulin à vent, ajoutez 2 étages avec petites fenêtres en verre. La porte d'entrée principale en bois sombre, avec un porche en panneaux de chêne. Astuce : le moulin doit être un peu plus large à la base qu'au sommet pour donner l'effet trapu typique." },
+        { heading: "Ailes du moulin à vent (4 pales)", content: "Au sommet du moulin, posez un bloc de bois sombre orienté (centre de rotation visuel). Construisez 4 pales identiques en croix : chaque pale fait 5-7 blocs de long sur 2 blocs de large. Utilisez panneaux de bois ou trappes pour les voiles entre les pales en chêne. Conseil : alignez les 4 pales en CROIX (vertical+horizontal) ou en X (diagonales) — le X est plus dynamique visuellement, la croix plus traditionnelle. Vous pouvez aussi construire les pales légèrement inclinées vers l'avant pour un effet 3D." },
+        { heading: "Roue du moulin à eau", content: "Au bord d'une rivière, construisez la roue verticale : un cercle de 5-7 blocs de diamètre en bois de chêne. Utilisez des escaliers et dalles pour donner la forme circulaire. La roue doit être à moitié immergée dans l'eau (la partie inférieure dans l'eau, la partie supérieure visible). Ajoutez 8 'pales' en panneaux de bois autour de la roue. Le moulin lui-même est plus petit qu'un moulin à vent : 5x5 au sol, 1-2 étages." }
+      ],
+      tips: ["Choisissez moulin à vent (en hauteur) ou moulin à eau (près d'une rivière) selon le terrain", "Les 4 pales du moulin à vent font 5-7 blocs de long, en croix ou en X", "Utilisez panneaux et trappes en bois pour les voiles entre les pales", "Pour la roue d'eau : escaliers + dalles en cercle, à moitié immergée", "Mélangez brique de pierre + bois pour un rendu authentique français/néerlandais"],
+      faq: [
+        { question: "Les ailes du moulin tournent-elles dans Minecraft ?", answer: "Pas par défaut en vanilla. Pour des ailes qui tournent réellement, il faut le mod Create (très populaire) qui ajoute des moulins fonctionnels. En vanilla, les ailes sont décoratives mais peuvent être animées avec des armor stands et des command blocks (très complexe)." },
+        { question: "Quelle hauteur pour un moulin à vent ?", answer: "Comptez 12 à 20 blocs au-dessus du sol pour le bâtiment, plus 5-7 blocs supplémentaires pour les pales (qui dépassent au-dessus). Total : 17-27 blocs de haut. Plus c'est haut, plus c'est imposant, mais évitez de dépasser 30 blocs (devient peu crédible pour un moulin)." },
+        { question: "Quels blocs pour un moulin réaliste ?", answer: "Base et corps : brique de pierre + brique de pierre moussue + bois de chêne. Toit : tuiles en escalier de nether brick (rouge) ou de blackstone (gris foncé). Pales : bois de chêne sombre + panneaux + trappes. Voile : laine blanche ou wool toile (laine blanche teintée légèrement)." }
+      ],
+      relatedSlugs: ["moulin-medieval", "fontaine-medievale", "eglise", "phare", "tour-chateau"]
+    }
+  },
+  {
+    slug: "moulin-medieval",
+    keyword: "moulin médiéval minecraft",
+    title: "Moulin Médiéval Minecraft : Guide de Construction",
+    h1: "Comment Construire un Moulin Médiéval dans Minecraft",
+    metaDescription: "Moulin médiéval Minecraft : guide complet avec pierre moussue, charpente apparente et plan détaillé. Style château, abbaye et village ancien.",
+    category: "building",
+    volume: 90,
+    content: {
+      intro: "Le moulin médiéval se distingue du moulin classique par son style 'charpente apparente' : structure en colombage (poutres de bois sombre visibles sur fond de pierre claire), toit en tuiles, charpente complexe sur les pales. Ce design plus travaillé prend 1-2 heures à construire mais transforme une simple ferme en place forte médiévale crédible.",
+      sections: [
+        { heading: "Style colombage : la signature médiévale", content: "Le colombage (poutres de bois apparentes) est LA signature de l'architecture médiévale européenne. Pour le reproduire : sur les murs, alternez bois de chêne foncé (ou de spruce) et torchis (terre cuite blanche/crème). Posez d'abord la structure en bois (poutres verticales tous les 2-3 blocs, poutres horizontales en haut et en bas, plus 1-2 diagonales par panneau), puis remplissez les espaces avec la terre cuite. Le résultat : un effet 'maison à pans de bois' très authentique." },
+        { heading: "Construire la base en pierre", content: "Le rez-de-chaussée d'un moulin médiéval est en pierre (résistance à l'humidité et au temps). Hauteur : 4-5 blocs. Utilisez un mélange brique de pierre + brique de pierre moussue + cobblestone moussue. Bordez les coins avec des colonnes en pierre taillée. La porte d'entrée en bois sombre avec un linteau en pierre sculptée (escaliers inversés). Quelques petites fenêtres en verre soufflé (verre teinté blanc cassé)." },
+        { heading: "Étages supérieurs en colombage", content: "Étages 2 et 3 : structure en colombage comme expliqué. Le 2e étage doit être légèrement en porte-à-faux (1 bloc plus large que le rez-de-chaussée), classique du médiéval. Toit : pente forte (45°+) en escaliers de nether brick rouge ou de blackstone. Ajoutez 1-2 lucarnes triangulaires sur les pentes. Une cheminée en brique sur le côté (pour le four du meunier)." },
+        { heading: "Pales avec charpente apparente", content: "Les pales d'un moulin médiéval sont plus travaillées : structure en croix de bois apparente, voile en panneaux + trappes pour suggérer une toile tendue. Chaque pale : 1 poutre centrale en bois (5-7 blocs) + 4-6 traverses perpendiculaires en bois. Entre les traverses, panneaux ou trappes pour la voile. Au pied du moulin, ajoutez quelques sacs de farine (blocs de béton blanc cassé), une charrette en bois, des outils de paysan." }
+      ],
+      tips: ["Le colombage (poutres bois sur torchis) est LA signature médiévale", "Le 2e étage doit être en porte-à-faux (1 bloc plus large) pour l'authenticité", "Toit en pente forte (45°+) en nether brick rouge ou blackstone", "Pales avec charpente apparente : poutres + traverses + voile en panneaux/trappes", "Ajoutez sacs de farine, charrette et outils au pied pour l'ambiance"],
+      faq: [
+        { question: "Quelle différence entre moulin classique et médiéval ?", answer: "Le moulin classique a des murs lisses (pierre ou bois plein), un toit conique simple, des pales basiques. Le moulin médiéval a du colombage apparent, un toit complexe avec lucarnes, des pales travaillées avec charpente visible, et un environnement (charrette, sacs, outils) plus riche." },
+        { question: "Combien de temps pour un moulin médiéval ?", answer: "Comptez 1h30 à 3h pour un moulin médiéval complet (vs 30-45 min pour un moulin classique). La complexité du colombage et de la charpente prend du temps, mais le résultat est incomparable." },
+        { question: "Quels blocs pour le colombage ?", answer: "Poutres : planches de chêne foncé ou de spruce (évitez le bois clair, pas assez contrasté). Remplissage : terre cuite blanche, terre cuite crème, ou béton blanc cassé. Évitez la laine (texture trop unie). L'idéal est un contraste fort bois sombre/torchis clair." }
+      ],
+      relatedSlugs: ["moulin", "eglise-medievale", "fontaine-medievale", "tour-chateau", "taverne"]
+    }
+  },
+  {
+    slug: "eglise",
+    keyword: "eglise minecraft",
+    title: "Église Minecraft : Guide de Construction",
+    h1: "Comment Construire une Église dans Minecraft",
+    metaDescription: "Construisez une église Minecraft : 3 styles (médiévale, gothique, moderne) avec clocher, vitraux et plan complet. Pour Java et Bedrock.",
+    category: "building",
+    volume: 1300,
+    content: {
+      intro: "L'église est le bâtiment central de tout village Minecraft médiéval. Avec son clocher, ses vitraux, sa nef centrale et ses contreforts, elle structure l'espace urbain et sert de point de repère visible de loin. Ce guide propose 3 styles (médiévale simple, gothique imposante, moderne épurée) avec dimensions, blocs et étapes détaillées.",
+      sections: [
+        { heading: "Plan en croix latine (style traditionnel)", content: "Une église traditionnelle suit le plan en croix latine : une NEF centrale (long couloir), un TRANSEPT perpendiculaire (les bras de la croix) et un CHŒUR au bout (où se trouve l'autel). Dimensions standard : nef 15-20 blocs de long, 7 blocs de large ; transept 11x5 blocs ; chœur 5x5 blocs. Cette forme en croix est immédiatement reconnaissable et permet de scénariser les espaces (sacristie, chapelles latérales)." },
+        { heading: "Murs et contreforts", content: "Murs principaux en brique de pierre + brique de pierre moussue (mélange anti-monotonie). Hauteur 8-10 blocs pour la nef. Tous les 3-4 blocs sur les murs extérieurs, ajoutez un CONTREFORT : une colonne en pierre qui dépasse du mur d'1 bloc et monte plus haut que le toit. Les contreforts sont la signature de l'architecture gothique et empêchent visuellement les murs de s'effondrer. Au sommet de chaque contrefort, ajoutez un pinacle en escaliers." },
+        { heading: "Vitraux colorés", content: "Les vitraux sont l'élément le plus mémorable d'une église. Sur chaque mur latéral de la nef, placez 3-4 grandes fenêtres en VERRE TEINTÉ : alternez bleu, rouge, vert, jaune et violet pour un effet rosace. Format conseillé : fenêtre 2 blocs de large x 4 blocs de haut, encadrée par de la pierre. À l'avant de l'église, créez une grande ROSACE circulaire (5-7 blocs de diamètre) en alternant verre teinté de couleurs vives. La lumière du jour traversant les vitraux crée des reflets magnifiques au sol." },
+        { heading: "Clocher et toit", content: "Le clocher se construit à l'avant ou sur le côté. Hauteur : 15-25 blocs au-dessus du toit principal. Forme : tour carrée 5x5 blocs avec ouvertures hautes pour 'voir' la cloche. Au sommet : toit pyramidal en escaliers de pierre, surmonté d'une croix en or (1 bloc d'or + 4 escaliers en or). Toit principal en escaliers de nether brick rouge (tuiles) ou de blackstone (ardoise). Pente forte (45°+) caractéristique du gothique." }
+      ],
+      tips: ["Plan en croix latine : nef + transept + chœur, immédiatement reconnaissable", "Contreforts tous les 3-4 blocs sur les murs extérieurs (signature gothique)", "Vitraux en verre teinté multicolore (bleu, rouge, vert, jaune, violet)", "Une grande rosace ronde au-dessus de l'entrée fait toute la différence", "Clocher 15-25 blocs plus haut que le toit principal, avec croix dorée au sommet"],
+      faq: [
+        { question: "Quelle est la différence entre église médiévale et gothique ?", answer: "Médiévale (romane) : murs épais, fenêtres petites en arc rond, plafond bas, ambiance sombre. Gothique : contreforts apparents, fenêtres hautes en arc brisé, vitraux immenses, plafond très haut, ambiance lumineuse. Le gothique est plus impressionnant mais demande plus de travail." },
+        { question: "Comment éclairer l'intérieur d'une église ?", answer: "Lanternes pendues au plafond (chaînes + lanternes), chandeliers avec armor stands + torches, lampes de redstone cachées derrière l'autel. Pour un effet 'lumière divine', placez quelques blocs de glowstone juste sous le plafond (cachés par des dalles inversées)." },
+        { question: "Faut-il un autel à l'intérieur ?", answer: "Oui, c'est l'élément central qui justifie l'église. Un autel simple : 3 dalles de quartz alignées, 1 chandelier au centre, 1 livre enchanté ouvert (ou un cadre d'objet avec un livre), 2 bougies allumées. À droite et gauche de l'autel : 2 statues d'anges ou de saints (3-4 blocs de haut)." }
+      ],
+      relatedSlugs: ["eglise-medievale", "interieur-eglise", "moulin", "fontaine-medievale", "manoir"]
+    }
+  },
+  {
+    slug: "eglise-medievale",
+    keyword: "eglise medieval minecraft",
+    title: "Église Médiévale Minecraft : Guide de Construction",
+    h1: "Comment Construire une Église Médiévale dans Minecraft",
+    metaDescription: "Église médiévale Minecraft : guide complet avec pierre moussue, vitraux et clocher. Style roman ou gothique avec dimensions et blocs détaillés.",
+    category: "building",
+    volume: 110,
+    content: {
+      intro: "L'église médiévale Minecraft, c'est l'incarnation de la pierre moussue, des vitraux et du clocher imposant. Construite en style roman (XIe-XIIe siècle) ou gothique (XIIIe-XVe siècle), elle structure tout village historique. Ce guide détaille un design roman simple (1h30 de construction) facilement adaptable en gothique pour les builders confirmés.",
+      sections: [
+        { heading: "Style roman vs gothique : choisir le bon", content: "STYLE ROMAN (recommandé débutant) : murs très épais, peu de fenêtres mais en arc rond, plafond bas (8 blocs), pas de contreforts, ambiance sombre et trapue. STYLE GOTHIQUE (avancé) : contreforts apparents, immenses vitraux en arc brisé, voûtes hautes (12-15 blocs), arc-boutants extérieurs, ambiance lumineuse et élancée. Pour une première église médiévale, partez sur du roman simple." },
+        { heading: "Murs en pierre moussue mélangée", content: "Le secret d'une église médiévale crédible : 3-4 types de pierre mélangés. Utilisez : brique de pierre, brique de pierre moussue, brique de pierre fissurée, et un peu de cobblestone moussue. Posez les blocs de manière irrégulière (pas de motif géométrique) pour simuler une église centenaire. Murs épais : 2 blocs minimum (utilisez un cadre extérieur + intérieur avec 1 bloc d'air entre les deux pour l'ambiance authentique)." },
+        { heading: "Petites fenêtres en arc rond", content: "Style roman = fenêtres rares et petites. 4-6 fenêtres par côté de la nef maximum. Forme : 1 bloc large × 3 blocs haut, terminée par 1 escalier inversé en pierre au sommet (effet arc rond). Verre teinté unique par fenêtre (pas multicolore comme dans le gothique) : alternez bleu nuit et rouge sang. La lumière qui traverse crée des taches colorées au sol, magnifique." },
+        { heading: "Clocher trapu et croix", content: "Le clocher médiéval roman est trapu (large à la base, pas trop haut) : carré 5x5 blocs, hauteur 15 blocs au-dessus du toit. Au sommet, une chambre des cloches avec ouvertures grandes (3x3 blocs ouverts sur chaque face) et 1 bloc d'or suspendu (la cloche). Toit pyramidal court en escaliers de basalte poli. Au sommet : 1 croix en pierre taillée (1 bloc vertical de 4 blocs + 1 bloc horizontal de 3 blocs au tiers supérieur)." }
+      ],
+      tips: ["Style roman = trapu, peu de fenêtres en arc rond, plafond bas (recommandé débutant)", "Style gothique = élancé, immenses vitraux en arc brisé, contreforts (avancé)", "Mélangez 3-4 types de pierre (moussue, fissurée, cobblestone) pour le réalisme", "Fenêtres romanes : 1x3 blocs avec escalier inversé au sommet (arc rond)", "Clocher trapu carré 5x5 avec chambre des cloches ouverte au sommet"],
+      faq: [
+        { question: "Quels blocs pour une église médiévale réaliste ?", answer: "Murs : brique de pierre + brique de pierre moussue + brique fissurée + un peu de cobblestone moussue (mélange irrégulier). Toit : nether brick (rouge) ou blackstone (ardoise) en escaliers. Vitraux : verre teinté bleu nuit, rouge sang, jaune ambre. Clocher : pierre taillée + escaliers de basalte. Cloche : 1 bloc d'or." },
+        { question: "Comment vieillir l'église pour qu'elle ait l'air ancienne ?", answer: "Ajoutez de la mousse sur le toit (placement aléatoire de blocs de mousse), des vignes qui pendent des contreforts, quelques blocs cassés (remplacer 5% des briques par de la pierre brute ou de la cobblestone), des fissures verticales en un bloc d'air. Plantez 1-2 arbres morts près de l'église." },
+        { question: "Combien de temps pour une église médiévale ?", answer: "Roman simple : 1h30 à 2h pour un bâtiment 25x15 blocs. Gothique avec contreforts et vitraux : 4-6h pour un bâtiment 35x20 blocs. C'est un projet long mais l'un des plus gratifiants à finir." }
+      ],
+      relatedSlugs: ["eglise", "interieur-eglise", "moulin-medieval", "fontaine-medievale", "manoir"]
+    }
+  },
+  {
+    slug: "interieur-eglise",
+    keyword: "interieur eglise minecraft",
+    title: "Intérieur d'Église Minecraft : Guide de Décoration",
+    h1: "Comment Décorer l'Intérieur d'une Église dans Minecraft",
+    metaDescription: "Décorez l'intérieur de votre église Minecraft : autel, bancs, vitraux, chandeliers, bénitier. Guide complet avec idées et placements.",
+    category: "building",
+    volume: 50,
+    content: {
+      intro: "L'extérieur d'une église impressionne, mais c'est l'intérieur qui retient les visiteurs. Ce guide détaille tous les éléments d'aménagement : autel central, bancs alignés, chandeliers suspendus, bénitier d'entrée, statues latérales, et l'éclairage 'mystique' qui fait toute l'atmosphère. Les techniques fonctionnent pour une église simple comme pour une cathédrale.",
+      sections: [
+        { heading: "Plan de l'intérieur : nef, autel, allée centrale", content: "Réservez une ALLÉE CENTRALE de 3 blocs de large qui va de la porte d'entrée à l'autel. À gauche et à droite, alignez les BANCS (escaliers en bois inversés, 2 blocs de profondeur). Comptez 8-12 rangées de bancs pour une église moyenne. Au bout, surélevez l'AUTEL de 2 blocs (CHŒUR plus haut que la nef). Sol de la nef en dalles de pierre claire, sol du chœur en dalles de quartz pour souligner la sacralité." },
+        { heading: "L'autel et son retable", content: "L'autel central : 3 dalles de quartz alignées posées sur 2 blocs de pierre. Sur l'autel : 2 chandeliers (armor stands + torches), 1 livre enchanté ouvert (cadre d'objet + livre), 1 calice (cadre + lingot d'or). Derrière l'autel, le RETABLE : un mur de 5x5 blocs en quartz décoré avec des bannières religieuses, 2-3 vitraux verticaux étroits, 1 grande croix en or au centre (1 colonne d'or de 4 blocs + 1 traverse d'or de 3 blocs)." },
+        { heading: "Bancs, chandeliers et statues", content: "BANCS : alignez des escaliers en bois sombre par 4-5 blocs côte à côte, dos contre dos en double rangée. Comptez 8-12 rangées par côté. CHANDELIERS suspendus : posez des chaînes de 4-5 blocs descendant du plafond, terminez par une lanterne. 6-8 chandeliers répartis le long de la nef. STATUES LATÉRALES : dans des niches dans les murs latéraux, placez 4-6 petites statues de saints (3-4 blocs en quartz blanc, posées sur un piédestal)." },
+        { heading: "Éclairage et ambiance mystique", content: "L'ambiance dépend de l'éclairage. Évitez les torches visibles (cassent l'ambiance). Cachez 6-8 blocs de glowstone derrière des dalles inversées au plafond. Sous l'autel, 2 blocs de glowstone donnent un effet 'auréole'. Près de chaque vitrail, 1 glowstone caché dans le mur fait briller le vitrail. Pour les bénitiers d'entrée : 2 chaudrons remplis d'eau de chaque côté de la porte. Quelques bougies allumées (8 sur l'autel, 16 répartis dans l'église) achèvent l'atmosphère." }
+      ],
+      tips: ["Allée centrale 3 blocs de large + bancs en escaliers inversés alignés", "Chœur surélevé de 2 blocs par rapport à la nef pour la sacralité", "Cachez les sources de lumière (glowstone derrière dalles inversées)", "Chandeliers suspendus = chaînes 4-5 blocs + lanternes au bout", "2 chaudrons d'eau près de l'entrée pour les bénitiers"],
+      faq: [
+        { question: "Comment faire des bancs d'église réalistes ?", answer: "Alignez des escaliers en bois sombre (chêne foncé ou spruce) par 4-5 côte à côte. Pour les bancs en double rangée : posez 2 escaliers dos à dos avec 1 bloc d'air entre eux pour l'allée. Comptez 8-12 rangées par côté de la nef pour une église moyenne." },
+        { question: "Faut-il un orgue dans l'église ?", answer: "C'est un excellent ajout. Construisez-le en hauteur (sur une mezzanine au-dessus de l'entrée) : 5x3 blocs de panneaux noirs (touches de l'orgue) sur une rangée de 7 blocs verticaux de quartz polis (les tuyaux). 4-6 escaliers en bois pour l'enceinte. Très impressionnant visuellement." },
+        { question: "Comment animer l'autel pour une cérémonie ?", answer: "Ajoutez des particules autour de l'autel avec un command block (/particle end_rod ~ ~1 ~ 0.3 0.5 0.3 0.01 5). Pour un effet 'consécration', combinez avec /playsound sur un block d'enchantement. Sans command block, utilisez 4 chandeliers allumés en permanence + 1 baton d'incandescence (talisman) dans un cadre." }
+      ],
+      relatedSlugs: ["eglise", "eglise-medievale", "deco-interieur", "salle-enchantement", "manoir"]
+    }
+  },
+  {
+    slug: "labyrinthe",
+    keyword: "minecraft labyrinthe",
+    title: "Labyrinthe Minecraft : Guide de Construction",
+    h1: "Comment Construire un Labyrinthe dans Minecraft",
+    metaDescription: "Construisez un labyrinthe Minecraft : haies, murs de pierre, pièges et énigmes. Guide complet avec plan et techniques pour mini-jeu serveur.",
+    category: "building",
+    volume: 880,
+    content: {
+      intro: "Le labyrinthe est l'un des projets les plus amusants à construire ET à parcourir dans Minecraft. Que ce soit un petit labyrinthe de jardin pour décorer ou un mega-labyrinthe pour serveur multijoueur, le principe est le même : créer un dédale avec exactement UNE solution. Ce guide explique les algorithmes simples pour générer un labyrinthe sans bug, le choix entre haies/pierre/glace, et comment ajouter pièges et récompenses.",
+      sections: [
+        { heading: "Tracer le plan sur papier (ou Excel)", content: "AVANT de poser le moindre bloc, dessinez le plan sur papier ou tableur. Format recommandé : grille carrée 16x16 ou 32x32 cases. Marquez l'ENTRÉE (E) et la SORTIE (S). Tracez UN seul chemin valide de E vers S, en zig-zag. Ajoutez ensuite les FAUX CHEMINS (impasses) qui partent du chemin principal mais finissent en cul-de-sac. Plus le labyrinthe a d'impasses, plus il est difficile. Visez 3-5 impasses pour un débutant, 10+ pour un labyrinthe corsé." },
+        { heading: "Construire les murs (haies, pierre, glace)", content: "Choix des murs : HAIES (feuilles de chêne) pour un labyrinthe de jardin esthétique. PIERRE/COBBLESTONE pour un labyrinthe sombre, hostile, type donjon. GLACE pour un labyrinthe transparent et glissant (mode hard). Hauteur des murs : MINIMUM 3 blocs (impossible de sauter par-dessus). Largeur des murs : 1 bloc suffit. Largeur des couloirs : 2 blocs minimum (pour passer confortablement). Construisez les murs sur la grille de votre plan papier." },
+        { heading: "Ajouter pièges et énigmes", content: "Un labyrinthe sans pièges est trop facile. Idées : (1) Pièges à pression sur le sol → activent un piston qui bouche le chemin de retour. (2) Mobs (zombies, squelettes) lâchés dans des sections sombres. (3) Trous cachés (1 bloc d'air dans le sol, chute de 5+ blocs avec dégâts). (4) Énigmes type 'choisir la bonne porte parmi 3' avec leviers et redstone. (5) Téléporteurs (command blocks) qui renvoient au début. Espacez les pièges, n'en mettez pas un à chaque virage." },
+        { heading: "Récompense finale et système de score", content: "Au bout du labyrinthe (sortie), placez une RÉCOMPENSE motivante : un coffre rempli (lingots de diamant, armure enchantée, étoiles du Nether, blocs rares) ou un téléporteur vers une zone exclusive. Pour un labyrinthe de serveur, ajoutez un panneau qui enregistre les vainqueurs (commande /scoreboard). Optionnel : un timer (minuteur en redstone à l'entrée) pour mesurer le temps de parcours. Ajoutez aussi des INDICES dispersés dans certaines impasses (panneaux avec texte 'pas par ici') pour aider sans donner la solution." }
+      ],
+      tips: ["Plan sur papier AVANT construction : entrée, sortie, 1 seul chemin valide, plusieurs impasses", "Murs minimum 3 blocs de haut (impossible de sauter par-dessus)", "Couloirs 2 blocs de large minimum (pour passer confortablement)", "Variez les pièges : pistons, mobs, trous, énigmes (un piège tous les 4-5 virages)", "Récompense finale motivante : coffre de loot ou téléporteur exclusif"],
+      faq: [
+        { question: "Quelle taille pour un bon labyrinthe Minecraft ?", answer: "Petit (jardin) : 16x16 blocs, 5 minutes à parcourir, ~30 min de construction. Moyen : 32x32 blocs, 10-15 min de parcours, 2h de construction. Grand (serveur) : 64x64 blocs, 30+ min de parcours, 6-8h de construction. Pour un débutant, partez sur 16x16 ou 24x24." },
+        { question: "Comment garantir qu'il y a une seule solution ?", answer: "Tracez d'abord le chemin valide unique sur papier (sans aucune ramification). Puis ajoutez les impasses comme des branches du chemin principal qui se terminent en cul-de-sac. Tant que vous ne créez pas de boucle qui rejoint deux points distincts du chemin valide, il y aura toujours UNE solution unique." },
+        { question: "Peut-on générer un labyrinthe automatiquement ?", answer: "Oui, plusieurs solutions : (1) plugins serveur comme MazeMaker, (2) sites externes comme MazeGenerator.net qui exporte une schematic Litematica, (3) datapacks qui génèrent un labyrinthe avec command blocks. Mais construire à la main reste plus satisfaisant." }
+      ],
+      relatedSlugs: ["base-secrete", "petit-chateau", "donjon-construction", "tour-chateau", "parc-attraction"]
+    }
+  },
+  {
+    slug: "phare",
+    keyword: "phare minecraft",
+    title: "Phare Minecraft : Guide de Construction",
+    h1: "Comment Construire un Phare dans Minecraft",
+    metaDescription: "Construisez un phare Minecraft fonctionnel : tour cylindrique, lampe rotative au sommet, escalier intérieur. Guide complet avec plan et blocs détaillés.",
+    category: "building",
+    volume: 880,
+    content: {
+      intro: "Le phare est le point de repère parfait sur la côte, en bord de lac ou même sur une île au milieu de l'océan. Visible de loin, il sert à la fois de décoration impressionnante et de balise d'orientation pour ne pas se perdre la nuit. Ce guide propose 2 designs : un phare classique (rouge/blanc) et un phare moderne (béton blanc), avec lampe au sommet et escalier intérieur fonctionnel.",
+      sections: [
+        { heading: "Choisir l'emplacement et la hauteur", content: "Le phare se construit IDÉALEMENT en hauteur naturelle : promontoire rocheux, île de quelques blocs au large, falaise. Hauteur recommandée : 25-40 blocs (visible de très loin). Plus haut, le phare devient instable visuellement. Pour un phare de port, 20-25 blocs suffisent. Pour un phare de pleine mer, 35-40 blocs. La base doit être plus large que le sommet pour la stabilité visuelle (effet conique)." },
+        { heading: "Construire la tour cylindrique", content: "Une vraie tour ronde n'est pas possible avec des blocs cubiques, mais on s'en approche avec un OCTOGONE. Tracez un octogone de 5 blocs de diamètre à la base. Empilez les blocs verticalement sur 25-30 blocs de haut. Pour donner l'effet conique, RÉDUISEZ la largeur d'1 bloc tous les 8 blocs de hauteur (passer de 5 à 4 puis 3). Alternez 4 anneaux de pierre blanche (béton blanc ou diorite polie) et 4 anneaux de pierre rouge (terre cuite rouge ou nether brick) pour le motif iconique rouge/blanc." },
+        { heading: "Lampe au sommet (lanterne ou phare actif)", content: "Au sommet de la tour, élargissez d'1 bloc pour créer une PLATEFORME 6x6 blocs (la salle de la lanterne). Murs vitrés (verre transparent) avec piliers en pierre aux 4 coins. À l'intérieur : 1 bloc de PHARE (beacon Minecraft, fait avec 3 obsidiennes + 5 verres + 1 étoile du nether) sur une pyramide de 1 niveau (9 blocs de fer/or/diamant/émeraude). Le faisceau monte verticalement, visible de très loin. Toit conique au-dessus en escaliers de pierre rouge." },
+        { heading: "Escalier intérieur en colimaçon", content: "L'intérieur du phare doit être accessible (sinon c'est juste de la déco). Construisez un ESCALIER EN COLIMAÇON : 8 escaliers en pierre par révolution (1 par côté de l'octogone), montant régulièrement. Au centre, laissez un PUITS DE LUMIÈRE (1 bloc d'air vertical du sommet à la base). À chaque étage, ajoutez une petite pièce avec une fenêtre (chambre du gardien, salle des cartes, salle radio). Au sommet, l'échelle finale mène à la salle de la lanterne." }
+      ],
+      tips: ["Hauteur recommandée : 25-40 blocs selon l'emplacement (port=25, île=35-40)", "Forme octogonale pour simuler une tour ronde", "Alternez 4 blocs blancs / 4 blocs rouges pour le motif iconique", "Bloc PHARE + pyramide de fer au sommet pour un faisceau lumineux fonctionnel", "Escalier en colimaçon intérieur + puits de lumière central"],
+      faq: [
+        { question: "Comment activer le faisceau du phare Minecraft ?", answer: "Posez le bloc PHARE (beacon) sur une pyramide d'au moins 9 blocs de fer/or/diamant/émeraude (niveau 1). Ouvrez le menu en cliquant droit, sélectionnez un effet, payez avec 1 lingot de fer/or/etc. Le faisceau apparaît immédiatement, visible à plusieurs centaines de blocs. Pour augmenter la portée des effets, agrandissez la pyramide (4 niveaux = effets sur 50 blocs autour)." },
+        { question: "Faut-il que le phare fonctionne ou peut-il être décoratif ?", answer: "Les deux marchent. PHARE FONCTIONNEL : utilisez un bloc beacon au sommet (visible de très loin, donne des effets autour). PHARE DÉCORATIF : remplacez par des lampes à redstone alimentées en permanence + des lanternes. Le décoratif est moins coûteux (pas besoin d'étoile du nether) mais le faisceau ne monte pas dans le ciel." },
+        { question: "Quelle largeur pour la base du phare ?", answer: "5x5 blocs minimum pour qu'il y ait place pour l'escalier intérieur + un peu d'espace habitable. 7x7 pour un phare confortable avec plusieurs pièces aux étages. En dessous de 5x5, l'intérieur est inutilisable. Au-dessus de 9x9, le phare paraît trapu et peu élégant." }
+      ],
+      relatedSlugs: ["phare-medieval", "tour-chateau", "moulin", "port-medieval", "fontaine"]
+    }
+  },
+  {
+    slug: "phare-medieval",
+    keyword: "phare médiéval minecraft",
+    title: "Phare Médiéval Minecraft : Guide de Construction",
+    h1: "Comment Construire un Phare Médiéval dans Minecraft",
+    metaDescription: "Phare médiéval Minecraft : guide complet avec pierre moussue, brasero au sommet et tour ronde. Idéal pour port médiéval ou côte historique.",
+    category: "building",
+    volume: 70,
+    content: {
+      intro: "Avant les phares modernes à lentille de Fresnel (XIXe siècle), les marins se repéraient grâce aux PHARES MÉDIÉVAUX : grandes tours de pierre avec un BRASERO ouvert au sommet (un feu visible de loin). Ce design plus austère et authentique convient parfaitement à un port médiéval Minecraft. Comptez 1h30 de construction.",
+      sections: [
+        { heading: "Différences avec un phare moderne", content: "Phare moderne : tour rouge/blanc, lampe électrique au sommet, escalier en colimaçon, salle vitrée. Phare médiéval : tour entièrement en pierre (pas de couleur), BRASERO ouvert au sommet (feu visible la nuit), créneaux/merlons défensifs, escalier extérieur sur certains designs. Le médiéval est plus court (15-25 blocs vs 25-40 pour le moderne) et plus trapu. Il s'inscrit parfaitement dans un système défensif de port (combiné à des murailles)." },
+        { heading: "Tour ronde en pierre brute mélangée", content: "Tracez un octogone de 5-7 blocs de diamètre à la base. Murs en mélange : brique de pierre + brique de pierre moussue + cobblestone moussue (pour le côté ancien). Pas d'alternance de couleurs comme le phare moderne — ici, un look uniformément 'usé par le temps'. Hauteur : 15-25 blocs. Tous les 5 blocs de hauteur, ajoutez une CORNICHE en escaliers inversés faisant le tour de la tour (effet stratifié). Petites fenêtres en fente verticale (1 bloc large × 3 hauts) sur les côtés tous les 3-4 blocs." },
+        { heading: "Brasero ouvert au sommet", content: "Au sommet, élargissez d'1 bloc pour créer une PLATEFORME OUVERTE 7x7 blocs entourée de créneaux (alternance dalles+blocs sur le pourtour, comme un château). Au centre : un BRASERO. Construction : 4 blocs de pierre en carré creux 3x3 → poser 1 NETHERRACK au centre → poser du FEU dessus (briquet sur netherrack = feu permanent). Le feu brûle indéfiniment et émet de la lumière niveau 15. Visible à 100+ blocs la nuit. Ajoutez 4 piliers d'angle de 4 blocs hauts qui supportent un toit conique en escaliers (toit ouvert sur les côtés pour laisser sortir la fumée)." },
+        { heading: "Détails médiévaux et environnement", content: "Pour ancrer le phare dans son époque : ajoutez 2-3 vignes qui pendent des corniches, une cloche en or à mi-hauteur (1 bloc d'or suspendu, qu'on sonne en cas de tempête), un treuil en bois à la base (charrette + chaînes pour monter le bois du brasero). Au pied du phare, construisez une petite hutte du gardien (4x4 blocs en bois + pierre, avec lit, four et coffre). Quelques tonneaux de poisson séché (déco port) achèvent l'ambiance." }
+      ],
+      tips: ["Brasero au sommet = netherrack + feu (permanent, lumière niveau 15)", "Tour ronde octogonale 5-7 blocs de diamètre, hauteur 15-25 blocs", "Pierre uniformément 'usée' (moussue, fissurée) sans alternance de couleurs", "Cornichesen escaliers inversés tous les 5 blocs (effet stratifié)", "Hutte du gardien à la base + treuil pour monter le bois"],
+      faq: [
+        { question: "Comment faire un feu permanent en haut du phare ?", answer: "Posez 1 bloc de NETHERRACK et utilisez un briquet dessus : le feu brûle indéfiniment sans s'éteindre. C'est la seule méthode pour un feu permanent en vanilla. Évitez de poser du feu sur du bois (incendie qui se propage) ou sur de la pierre (feu temporaire qui s'éteint)." },
+        { question: "Le phare médiéval est-il visible la nuit ?", answer: "Oui, le brasero (feu sur netherrack) émet de la lumière niveau 15, visible à 100+ blocs la nuit. C'est moins puissant qu'un beacon (qui projette un faisceau dans le ciel), mais plus authentique pour un setting médiéval. Augmentez la portée en ajoutant des lanternes sur les créneaux." },
+        { question: "Faut-il combiner avec une muraille ?", answer: "Idéal mais pas obligatoire. Un phare médiéval s'intègre parfaitement dans un système de défense côtière : muraille basse en cobblestone moussue + tour de garde + phare au point culminant. Cela transforme un simple phare en complexe portuaire crédible." }
+      ],
+      relatedSlugs: ["phare", "tour-chateau", "port-medieval", "moulin-medieval", "fontaine-medievale"]
+    }
+  },
+  {
+    slug: "tour-eiffel",
+    keyword: "tour eiffel minecraft",
+    title: "Tour Eiffel Minecraft : Guide de Construction",
+    h1: "Comment Construire la Tour Eiffel dans Minecraft",
+    metaDescription: "Construisez la Tour Eiffel dans Minecraft : guide étape par étape avec hauteur, charpente métallique et plan détaillé. Pour Java et Bedrock.",
+    category: "building",
+    volume: 480,
+    content: {
+      intro: "La Tour Eiffel est l'un des projets de construction Minecraft les plus impressionnants à réussir : 330 mètres dans la réalité, soit 100 à 130 blocs en jeu, avec sa charpente métallique en treillis caractéristique. Ce guide donne le plan complet : 4 pieds d'angle, 2 plateformes (1er et 2e étages), flèche au sommet, et la fameuse charpente diagonale. Comptez 6-10 heures de construction.",
+      sections: [
+        { heading: "Calculer l'échelle et l'emplacement", content: "La vraie Tour Eiffel mesure 324 mètres. En Minecraft (1 bloc = 1 mètre approximatif), comptez 100-130 blocs de haut pour un rendu fidèle. Empreinte au sol : 30x30 blocs (les 4 pieds forment un carré de 30 blocs de côté). Choisissez un emplacement DÉGAGÉ : grande plaine, bord de rivière (à reproduire la Seine en bonus), ou centre d'une ville Minecraft. Marquez les 4 coins de l'empreinte au sol avec des piquets de bois." },
+        { heading: "Construire les 4 pieds d'angle", content: "Les 4 pieds sont la partie la plus visible et complexe. Chaque pied part DU SOL, fait 30-40 blocs de haut, et CONVERGE vers le centre selon une courbe parabolique. Méthode simplifiée : commencez chaque pied en bas par 4 blocs de fer (carré 2x2) au coin du périmètre 30x30. Toutes les 5 hauteurs, RAPPROCHEZ d'1 bloc vers le centre. Au sommet (hauteur ~35), les 4 pieds se rejoignent au-dessus du centre, formant la base du 1er étage. Chaque pied utilise des blocs de fer avec quelques poutres diagonales en panneaux ou en escaliers (pour la charpente apparente)." },
+        { heading: "Plateformes 1er et 2e étage", content: "1ER ÉTAGE (vers 35 blocs) : plateforme carrée 12x12 blocs, sol en panneaux de fer ou dalles de fer brut, garde-corps en barreaux de fer (4 blocs de haut autour). À cet étage, vous pouvez créer un mini-restaurant ou une zone d'observation. 2E ÉTAGE (vers 70 blocs) : plateforme plus petite 8x8 blocs, même style. Entre le 1er et le 2e étage, la tour rétrécit progressivement (réduction de largeur tous les 5 blocs). Du 1er au 2e étage, la structure devient une simple colonne carrée de 6x6 blocs en charpente métallique." },
+        { heading: "Sommet et antenne", content: "Du 2e étage au sommet (hauteur 100-130), construisez une COLONNE EFFILÉE qui passe de 6x6 à 2x2 blocs en haut. Sommet : 4 blocs de fer en carré 2x2 montant verticalement sur 8-10 blocs (le pylône). Au-dessus, l'ANTENNE : 1 bloc vertical de paratonnerre (Minecraft 1.17+) ou 1 colonne de 3 blocs de fer terminée par 1 dalle. Optionnel : ajoutez 4 lanternes au sommet pour un éclairage nocturne (la vraie Tour Eiffel scintille). Pour les puristes, ajoutez le drapeau français au sommet (3 bannières bleu, blanc, rouge)." }
+      ],
+      tips: ["Hauteur cible : 100-130 blocs (échelle 1m = 1 bloc)", "Empreinte au sol : 30x30 blocs (les 4 pieds)", "Les 4 pieds CONVERGENT vers le centre (rapprochement d'1 bloc tous les 5 blocs de hauteur)", "Charpente apparente : panneaux et escaliers diagonaux entre les blocs de fer", "1er étage à 35 blocs, 2e étage à 70 blocs, sommet à 100-130 blocs"],
+      faq: [
+        { question: "Combien de blocs pour la Tour Eiffel Minecraft ?", answer: "Comptez 5000-8000 blocs au total : 2000-3000 pour les 4 pieds, 1500 pour la colonne centrale, 500-1000 pour les plateformes, 1000 pour les détails de charpente diagonale. Le bloc principal est le BLOC DE FER (très demandeur en lingots — prévoyez 50+ stacks)." },
+        { question: "Combien de temps pour la construire ?", answer: "En vanilla sans aide : 6 à 10 heures pour un joueur expérimenté, 15-20h pour un débutant. Avec WorldEdit : 30-60 minutes. C'est un projet de week-end ambitieux mais l'un des plus emblématiques." },
+        { question: "Faut-il du fer ou du bois pour la Tour Eiffel ?", answer: "La vraie Tour Eiffel est en FER (fer puddlé), donc utilisez les blocs de fer. Si vous manquez de fer, le BLOC DE FER BRUT (raw iron block) ou la couleur GRISE (béton ou laine grise) fonctionnent comme alternatives. Évitez le bois : la Tour Eiffel n'est pas en bois historiquement et c'est un détail majeur." }
+      ],
+      relatedSlugs: ["statue-de-la-liberte", "tour-chateau", "tour-japonaise", "phare", "statue"]
+    }
+  },
+  {
+    slug: "tour-chateau",
+    keyword: "tour chateau minecraft",
+    title: "Tour de Château Minecraft : Guide de Construction",
+    h1: "Comment Construire une Tour de Château dans Minecraft",
+    metaDescription: "Construisez une tour de château Minecraft : créneaux, meurtrières, toit conique et escalier intérieur. Guide complet avec dimensions et blocs.",
+    category: "building",
+    volume: 170,
+    content: {
+      intro: "La tour de château est un élément architectural fondamental : tour d'angle d'un fort, donjon central, tour de garde isolée. Avec ses créneaux défensifs, ses meurtrières et son toit conique, elle structure visuellement n'importe quel château. Ce guide détaille un design de tour ronde de 5 blocs de diamètre × 20 blocs de haut, parfait pour servir de tour d'angle ou de point d'observation.",
+      sections: [
+        { heading: "Forme : ronde, carrée ou hexagonale", content: "TOUR RONDE (octogone en réalité) : la plus élégante mais la plus complexe à construire (utiliser des escaliers et dalles pour les coins). TOUR CARRÉE : la plus simple, classique pour un château français médiéval. TOUR HEXAGONALE : compromis entre les deux, idéal pour les châteaux fantaisie. Pour cette guide, on construit une TOUR RONDE (octogonale) qui reste accessible aux débutants. Diamètre standard : 5 blocs (pour intérieur habitable) à 9 blocs (pour grandes tours)." },
+        { heading: "Construire le corps de la tour", content: "Tracez un octogone de 5 blocs de diamètre. Empilez verticalement sur 18-22 blocs de haut. Murs en BRIQUE DE PIERRE + BRIQUE DE PIERRE MOUSSUE (mélange anti-monotonie). Tous les 5 blocs de hauteur, ajoutez une CORNICHE en escaliers inversés faisant le tour. Ajoutez 4-6 MEURTRIÈRES verticales (1 bloc large × 2 hauts, en croix avec 1 bloc horizontal au milieu) sur les murs, à des hauteurs variées. La porte d'entrée est à la base (2 blocs hauts × 1 large)." },
+        { heading: "Créneaux et chemin de ronde", content: "Au sommet de la tour, élargissez d'1 bloc pour créer une PLATEFORME 7x7 blocs (chemin de ronde). Bordez-la de CRÉNEAUX : alternance de blocs pleins (merlons) et de creux (1 bloc de hauteur entre 2 merlons). Pattern classique : 1 bloc plein, 1 bloc d'air, 1 bloc plein, etc. tout autour de la plateforme. Au sol du chemin de ronde, posez des dalles de pierre. Cette plateforme défensive est l'élément le plus reconnaissable d'une tour de château." },
+        { heading: "Toit conique et fanion", content: "Au-dessus du chemin de ronde, construisez le TOIT CONIQUE : superposez des escaliers en pierre rouge (nether brick) en réduisant le diamètre d'1 bloc à chaque niveau. Hauteur du toit : 5-7 blocs. Au sommet, posez 1 bloc de pierre + 1 panneau debout (le mât du fanion). Sur le panneau, suspendez 1 bannière colorée (rouge avec un blason, ou unie selon vos goûts). Ce détail fait toute la différence visuelle." }
+      ],
+      tips: ["Diamètre standard : 5 blocs (intérieur habitable) à 9 blocs (grandes tours)", "Hauteur recommandée : 18-22 blocs pour une tour proportionnée", "Créneaux au sommet : alternance bloc plein / 1 bloc d'air, pattern classique", "Toit conique en escaliers de nether brick rouge (tuiles)", "Ajoutez un mât de bannière au sommet pour personnaliser"],
+      faq: [
+        { question: "Quelle hauteur idéale pour une tour de château ?", answer: "Pour une tour d'angle d'un château : 15-20 blocs (proportionnelle aux murailles). Pour un donjon central : 25-35 blocs (doit dominer le reste du château). Pour une tour isolée (tour de garde) : 18-25 blocs. Au-delà de 35 blocs, la tour devient peu crédible architecturalement." },
+        { question: "Comment faire un escalier intérieur dans une tour ronde ?", answer: "Un escalier en colimaçon : posez 8 escaliers par révolution (1 par côté de l'octogone), montant régulièrement. Cela demande un diamètre intérieur d'au moins 5 blocs pour être confortable. Alternative plus simple : escalier droit le long d'un mur, avec un palier qui change de direction tous les 5 blocs." },
+        { question: "Quels blocs pour une tour médiévale réaliste ?", answer: "Murs : brique de pierre + brique de pierre moussue (60/40) + un peu de brique fissurée. Toit : escaliers de nether brick rouge ou de blackstone. Détails : pierre taillée pour les corniches, panneaux de bois sombre pour les fenêtres internes, bannière colorée au sommet. Évitez la cobblestone seule (look 'cabane'), trop générique." }
+      ],
+      relatedSlugs: ["chateau-fort", "chateau-medieval", "petit-chateau", "tour-japonaise", "phare-medieval"]
+    }
+  },
+  {
+    slug: "tour-japonaise",
+    keyword: "tour japonaise minecraft",
+    title: "Tour Japonaise Minecraft : Guide de Construction",
+    h1: "Comment Construire une Tour Japonaise dans Minecraft",
+    metaDescription: "Construisez une pagode ou tour japonaise Minecraft : étages superposés, toits courbés et bois rouge. Guide complet avec design authentique.",
+    category: "building",
+    volume: 90,
+    content: {
+      intro: "La tour japonaise (souvent une pagode bouddhiste) est l'un des bâtiments les plus distinctifs de l'architecture asiatique : étages superposés à la même base, toits courbés en avant-toits prononcés, structure en bois rouge. Ce guide détaille une pagode à 5 étages de 25 blocs de haut, design typiquement japonais, en 1-2h de construction.",
+      sections: [
+        { heading: "Caractéristiques d'une pagode japonaise", content: "3 traits distinctifs à respecter : (1) ÉTAGES IDENTIQUES en plan mais réduits en taille au fur et à mesure (effet pyramidal). (2) AVANT-TOITS COURBÉS qui dépassent largement (1-2 blocs de plus que l'étage en dessous). (3) BOIS ROUGE (warped ou crimson dans Minecraft, ou planches de chêne foncé teintées) pour la structure. Les couleurs typiques sont rouge cinabre + or + blanc cassé. Évitez les couleurs vives modernes." },
+        { heading: "Construire le rez-de-chaussée", content: "Base carrée 7x7 blocs en pierre claire (diorite polie ou andésite polie pour l'effet pierre japonaise). Hauteur du rez-de-chaussée : 5 blocs. Murs en planches de bois cherry (cerisier, Minecraft 1.20+) ou en planches de spruce avec poutres horizontales en chêne foncé. Porte centrale d'entrée : 2 blocs hauts × 2 larges, en panneaux de cerisier. Quelques fenêtres rectangulaires basses des 4 côtés (1 bloc large × 2 hauts en verre teinté blanc)." },
+        { heading: "Étages supérieurs et avant-toits", content: "Étage 2 : 6x6 blocs (1 plus petit que la base), même hauteur 4-5 blocs. Étage 3 : 5x5. Étage 4 : 4x4. Étage 5 : 3x3. Entre chaque étage, construisez un AVANT-TOIT EN ESCALIERS qui dépasse de 1-2 blocs : alternez escaliers de blackstone (couleur ardoise) avec une rangée de dalles inversées en dessous (pour la courbure). Cet avant-toit est la signature visuelle de la pagode. Aux 4 coins de chaque avant-toit, ajoutez 1 lanterne suspendue (lanterne posée sur une chaîne d'1 bloc)." },
+        { heading: "Sommet : flèche et finition", content: "Au-dessus du 5e étage, construisez la FLÈCHE : une colonne de 5-7 blocs de pierre polie au centre, surmontée d'une boule en or (4 blocs en croix de bloc d'or) et terminée par un fil de fer (1 panneau debout). Décoration extérieure : 4 lanternes en pierre devant l'entrée (poteau de pierre + lanterne au sommet), un PETIT JARDIN ZEN à 5 blocs de l'entrée (sable blanc avec quelques pierres rondes et un pont de bois courbé), et 2-3 cerisiers en fleurs à proximité (cerisier Minecraft 1.20+)." }
+      ],
+      tips: ["Étages identiques en plan mais qui rapetissent au fur et à mesure (effet pyramidal)", "Avant-toits qui dépassent de 1-2 blocs (signature visuelle pagode)", "Bois rouge cherry ou planches de spruce + poutres chêne foncé", "Lanterne suspendue à chaque coin d'avant-toit (4 par étage)", "Jardin zen + cerisiers en fleurs autour pour l'ambiance authentique"],
+      faq: [
+        { question: "Combien d'étages pour une pagode authentique ?", answer: "Les pagodes japonaises ont traditionnellement un NOMBRE IMPAIR d'étages (3, 5, 7) pour des raisons spirituelles bouddhistes. 3 étages : pagode simple. 5 étages : standard (recommandé pour Minecraft). 7 étages : pagode majestueuse, plus complexe à construire. Évitez les nombres pairs." },
+        { question: "Quels blocs pour le rouge japonais ?", answer: "Le rouge japonais (cinabre, vermillon) se reproduit avec : terre cuite rouge (clean, pas glacée), béton rouge (plus saturé), planches de cerisier teintées (Minecraft 1.20+, naturellement roses). Évitez les nether bricks (trop rouges-violets). Pour un effet plus sombre, mélangez avec du bois de spruce sombre." },
+        { question: "Quelle différence entre pagode chinoise et japonaise ?", answer: "PAGODE JAPONAISE : étages très clairement séparés par des avant-toits dépassants, bois plus visible, plus sobre. PAGODE CHINOISE : avant-toits plus retroussés vers le haut (pointes), couleurs plus vives (or + rouge + vert), décorations sculptées plus chargées, dragons aux angles. Adaptez selon votre vibe." }
+      ],
+      relatedSlugs: ["pagode", "temple-japonais", "jardin-japonais", "tour-chateau", "tour-eiffel"]
+    }
+  },
+  {
+    slug: "pagode",
+    keyword: "pagode minecraft",
+    title: "Pagode Minecraft : Guide de Construction",
+    h1: "Comment Construire une Pagode dans Minecraft",
+    metaDescription: "Construisez une pagode Minecraft authentique : étages superposés, avant-toits courbés et flèche dorée. Guide complet avec dimensions et blocs.",
+    category: "building",
+    volume: 170,
+    content: {
+      intro: "La pagode est un édifice bouddhiste asiatique reconnaissable entre tous : tour à plusieurs étages superposés, chacun coiffé d'un avant-toit qui dépasse, surmontée d'une flèche élancée. Apparue en Inde, popularisée en Chine puis raffinée au Japon, elle se prête particulièrement bien à Minecraft grâce à ses formes étagées. Ce guide propose un design 5 étages de 30 blocs de haut.",
+      sections: [
+        { heading: "Plan général et règles d'or", content: "Une pagode bien construite respecte 4 règles : (1) NOMBRE IMPAIR d'étages (3, 5, 7) pour des raisons spirituelles bouddhistes. (2) ÉTAGES IDENTIQUES en plan, qui rétrécissent en taille de bas en haut. (3) AVANT-TOITS DÉPASSANTS entre chaque étage. (4) FLÈCHE CENTRALE au sommet, plus haute que tout l'édifice. Respecter ces règles transforme une simple tour en pagode crédible. Plan recommandé : 7x7 base → 5 étages → 3x3 sommet, hauteur totale 28-32 blocs." },
+        { heading: "Base et pierre fondations", content: "Construisez d'abord une PLATEFORME en pierre claire (diorite polie, granite poli ou andésite polie) de 9x9 blocs. C'est sur cette plateforme que repose la pagode. Hauteur de la plateforme : 1 bloc. Au pourtour, ajoutez 4 marches d'accès (1 escalier sur chaque face). Cette plateforme symbolise le terrain sacré et améliore considérablement le rendu final. Sans plateforme, la pagode 'pose' directement sur l'herbe et perd en majesté." },
+        { heading: "5 étages avec avant-toits", content: "Étages : 7x7, 6x6, 5x5, 4x4, 3x3 (du bas au haut). Hauteur de chaque étage : 4-5 blocs. Murs en planches de cherry (cerisier rose) ou en spruce + poutres en chêne foncé. À CHAQUE ÉTAGE, construisez un AVANT-TOIT : une couronne d'escaliers + dalles qui dépasse de 1-2 blocs sur tous les côtés. Style : escaliers de nether brick rouge ou de blackstone (look ardoise). Aux 4 coins de chaque avant-toit, posez 1 lanterne suspendue. Total : 20 lanternes pour les 5 étages, qui éclairent magnifiquement la nuit." },
+        { heading: "Flèche, dragons et finition", content: "Au sommet du 5e étage, construisez la FLÈCHE : 7-9 blocs verticaux en pierre polie ou en or, terminée par 1 bloc de paratonnerre (Minecraft 1.17+) ou 1 panneau debout. Pour l'authenticité asiatique, ajoutez aux 4 angles du toit du dernier étage des 'DRAGONS' miniatures : 2-3 escaliers en pierre + 1 dalle qui pointent vers l'extérieur (effet gargouille). Décoration extérieure : 2 grandes lanternes de pierre devant l'entrée (statues lanternes de jardin), 4 cerisiers en fleurs aux 4 coins, gravier blanc pour le chemin d'accès." }
+      ],
+      tips: ["Nombre IMPAIR d'étages obligatoire (3, 5 ou 7) pour l'authenticité bouddhiste", "Étages qui rétrécissent : 7x7, 6x6, 5x5, 4x4, 3x3 du bas au haut", "Plateforme en pierre claire AVANT de poser la pagode (effet sacré)", "Avant-toits dépassants à CHAQUE étage avec lanternes aux 4 coins", "Flèche centrale au sommet, plus haute que tout l'édifice"],
+      faq: [
+        { question: "Pagode ou temple japonais : quelle différence ?", answer: "PAGODE : édifice EN HAUTEUR (tour à étages), centré sur la verticalité, sans intérieur habitable réel (chaque étage est petit). TEMPLE JAPONAIS : édifice BAS et LARGE, plusieurs salles intérieures fonctionnelles, toits courbés mais pas étagés. La pagode est un élément RELIGIEUX, le temple est un lieu DE CULTE actif. Vous pouvez construire les deux côte à côte." },
+        { question: "Faut-il une cloche dans la pagode ?", answer: "Traditionnellement OUI : à l'intérieur du dernier étage, suspendez 1 bloc d'or (la cloche) à 2 chaînes. Au pied de la pagode, ajoutez aussi une CLOCHE FONCTIONNELLE Minecraft (le bloc cloche) sur un poteau de bois — visiteurs peuvent cliquer dessus pour la sonner. Le son est authentiquement bouddhiste." },
+        { question: "Combien de temps pour une pagode 5 étages ?", answer: "Compter 1h30 à 2h30 pour un builder moyen. Les étapes les plus longues : la base (30 min), les avant-toits (45 min), les détails extérieurs (jardin, cerisiers, lanternes — 30 min). C'est un projet qui se termine en une session de jeu et dont le rendu final est très spectaculaire." }
+      ],
+      relatedSlugs: ["tour-japonaise", "temple-japonais", "jardin-japonais", "tour-chateau", "fontaine"]
+    }
+  },
+  {
+    slug: "deco-chambre",
+    keyword: "deco chambre minecraft",
+    title: "Décoration de Chambre Minecraft : Guide Complet",
+    h1: "Comment Décorer une Chambre dans Minecraft",
+    metaDescription: "Décorez votre chambre Minecraft : meubles, lit, bureau, étagères, éclairage. Guide complet avec idées modernes, médiévales et japonaises.",
+    category: "building",
+    volume: 1000,
+    content: {
+      intro: "La chambre est l'un des espaces les plus personnels de votre base Minecraft : c'est là où vous dormez, stockez vos affaires, et passez du temps tranquille. Une chambre bien décorée transforme une simple pièce en cocon. Ce guide propose 3 styles complets (moderne, médiévale, japonaise) avec meubles construits bloc par bloc : lit, bureau, étagères, lampe, tapis et déco murale.",
+      sections: [
+        { heading: "Plan d'une chambre fonctionnelle", content: "Une chambre Minecraft confortable fait minimum 7x7 blocs (49 m²), idéalement 9x9 ou plus. Réservez : 1 ZONE LIT (3x4 blocs avec lit + tables de chevet), 1 ZONE BUREAU (3x3 blocs avec bureau + chaise + étagères), 1 ZONE RANGEMENT (mur d'étagères ou armoire), 1 ZONE LIVING (tapis + chaises ou canapé pour lire). Hauteur du plafond : 4 blocs minimum (sinon claustrophobique). Ajoutez 1-2 fenêtres pour la lumière naturelle." },
+        { heading: "Meubles : lit, bureau, étagères", content: "LIT : posez 1 lit Minecraft (ou 2 pour un lit double) + 2 tables de chevet (1 bloc + 1 dalle inversée + 1 lanterne sur chaque). BUREAU : 2 escaliers en bois inversés (jambes du bureau) + 1 dalle au-dessus + 1 chaise (1 escalier orienté + 1 panneau debout en dossier). ÉTAGÈRES : 2-3 rangées de bibliothèques contre un mur. ARMOIRE : 2 blocs verticaux de bois + 2 trappes en bois pour les portes. Tous ces meubles utilisent des blocs accessibles dès le début." },
+        { heading: "Style moderne : quartz, blanc et bois clair", content: "Une chambre MODERNE : sol en planches de bouleau ou de cerisier, murs en quartz lisse ou en béton blanc, plafond en quartz lisse. Lit double avec drap blanc (lit blanc Minecraft) et tables de chevet noires (béton noir + dalle). Bureau en bouleau avec ordinateur (cadre d'objet sur un bloc + clavier en panneaux). Étagères en bouleau. Tapis gris au sol. Plante en pot dans un coin (1 bloc de gravier + 1 fleur ou cactus). Éclairage LED : lampes à redstone cachées dans le plafond." },
+        { heading: "Styles alternatifs : médiéval et japonais", content: "MÉDIÉVAL : sol en planches de chêne foncé, murs en pierre moussue + colombage, plafond en poutres apparentes (poutres de bois posées tous les 2 blocs au plafond). Lit avec drap rouge ou marron. Coffre en bois sombre comme commode. Étagères en bois sombre. Lanterne suspendue au plafond. Tapis en peau d'animal (laine marron). JAPONAIS : sol en tatami (combinaison panneaux de bambou + dalles de cerisier), murs en papier (panneaux de bouleau + cadres en spruce). Futon (lit blanc) directement au sol. Petite table basse en cerisier. Lanterne en papier suspendue. Bonsaï en pot dans un coin." }
+      ],
+      tips: ["Taille minimum 7x7 blocs, idéal 9x9 ou plus pour le confort", "4 zones distinctes : lit, bureau, rangement, living/lecture", "Plafond minimum 4 blocs de haut (en dessous = claustrophobique)", "Cachez l'éclairage (lampes à redstone derrière dalles inversées) pour un rendu propre", "Adaptez au style global de votre base : moderne, médiéval, japonais ou mixte"],
+      faq: [
+        { question: "Comment faire un bureau Minecraft ?", answer: "Posez 2 escaliers en bois inversés côte à côte (les jambes du bureau), espacés de 2-3 blocs. Posez 1-2 dalles au-dessus pour former le plateau. Pour la chaise : 1 escalier orienté vers le bureau + 1 panneau debout derrière (le dossier). Ajoutez sur le bureau : 1 cadre d'objet avec un livre, 1 lanterne, 1 pot de fleur." },
+        { question: "Quels blocs pour un lit double Minecraft ?", answer: "Posez 2 lits côte à côte (de la même couleur). Visuellement, ça simule un lit double 4x2 blocs. Vous ne pouvez pas dormir à 2 dessus (1 seul joueur peut dormir dans un lit), mais visuellement c'est crédible. Ajoutez 2 tables de chevet aux extrémités (1 dalle + 1 lanterne)." },
+        { question: "Comment éclairer une chambre sans torches visibles ?", answer: "Cachez les sources de lumière : (1) Lampes à redstone derrière dalles inversées au plafond. (2) Glowstone caché dans le mur derrière une bibliothèque. (3) Mer luminescente sous une couche de verre dans le sol (effet 'plancher lumineux'). (4) Lanterne dans une étagère partiellement cachée par des livres." }
+      ],
+      relatedSlugs: ["deco-interieur", "salle-de-bain", "deco-anniversaire", "manoir", "cabane-arbres"]
+    }
+  },
+  {
+    slug: "deco-anniversaire",
+    keyword: "decoration anniversaire minecraft",
+    title: "Décoration d'Anniversaire Minecraft : Guide Complet",
+    h1: "Comment Décorer un Anniversaire dans Minecraft",
+    metaDescription: "Décorez un anniversaire dans Minecraft : gâteau géant, ballons, banderoles, table festive. Guide complet pour fête multijoueur réussie.",
+    category: "building",
+    volume: 1000,
+    content: {
+      intro: "Organiser un anniversaire dans Minecraft (sur un serveur multijoueur ou pour une session entre amis) est devenu une vraie tendance. Avec la bonne décoration, vous pouvez transformer une salle banale en lieu de fête mémorable. Ce guide propose une déco complète : gâteau d'anniversaire géant (déco), ballons en laine, banderoles, table festive, piste de danse et système d'éclairage. Buildable en 1h pour 5-10 invités.",
+      sections: [
+        { heading: "Plan de la salle de fête", content: "Réservez minimum 15x15 blocs (225 m²) pour 5-10 invités. Sol en blocs colorés (terre cuite glacée bleue, rose, jaune alternées en damier) ou en quartz blanc. Plafond haut : 6 blocs minimum pour les ballons. Délimitez 4 zones : (1) ENTRÉE avec banderole, (2) GÂTEAU GÉANT central, (3) TABLE BUFFET le long d'un mur, (4) PISTE DE DANSE. Murs blancs (laine ou béton blanc) pour faire ressortir la déco colorée." },
+        { heading: "Gâteau d'anniversaire géant", content: "Construisez un GÂTEAU GÉANT au centre de la salle (déco, pas un vrai bloc gâteau). Forme cylindrique : empilez 3 étages de cercles en laine blanche (effet glaçage), chaque étage 1 bloc plus petit que le précédent. Étage 1 : 5 blocs de diamètre. Étage 2 : 3 blocs. Étage 3 : 1 bloc. Au sommet : 5-7 BOUGIES allumées (le bloc bougie Minecraft, alignées). Sur les côtés : alternez bandes de laine rouge et blanche (effet 'crème pâtissière'). Sous le gâteau, posez 1 grand plateau en panneaux de bouleau." },
+        { heading: "Ballons en laine suspendus", content: "Les BALLONS sont l'élément le plus festif. Pour chaque ballon : suspendez 1 bloc de LAINE coloré (rouge, bleu, jaune, vert, violet, orange) au plafond avec 3-5 blocs de chaîne ou de fil (string sur poteau invisible). Variez les hauteurs (3, 5, 7 blocs sous le plafond) pour un effet aléatoire. Comptez 15-30 ballons répartis dans la salle pour un effet 'fête'. Astuce : alternez les couleurs sans répétition pour un look harmonieux." },
+        { heading: "Table buffet et piste de danse", content: "TABLE BUFFET : alignez 6-10 blocs de bois sombre (planches de spruce inversées + dalles au-dessus). Sur la table : alternez gâteaux Minecraft (vrais blocs gâteau), citrouilles tranchées (croûtons), pommes (cadres d'objet avec pommes), bouteilles de potion (potions vides comme jus). PISTE DE DANSE : carré 7x7 en blocs de jukebox + lampes à redstone alternés (alimentés par un circuit pour clignoter). Au-dessus, 1 boule disco (1 bloc de glowstone entouré de boutons)." }
+      ],
+      tips: ["Salle minimum 15x15 blocs avec plafond 6 blocs de haut (pour les ballons)", "Sol en damier coloré (terre cuite glacée alternée) ou en quartz blanc", "Gâteau géant central : 3 étages de cercles + bougies au sommet", "Ballons en laine colorée suspendus à différentes hauteurs (15-30 ballons)", "Table buffet en bois sombre avec gâteaux + jus + fruits dans des cadres d'objet"],
+      faq: [
+        { question: "Comment faire un vrai gâteau Minecraft ?", answer: "Le bloc CAKE Minecraft se craft avec 3 seaux de lait + 2 sucres + 1 œuf + 3 blés. Posez-le sur la table buffet : il a 7 parts (mangeable). Pour un gros gâteau visuel, posez plusieurs cakes côte à côte. Pour le gâteau de DÉCOR géant (le centre de la fête), utilisez de la laine blanche empilée comme expliqué." },
+        { question: "Comment animer la fête (musique) ?", answer: "Posez un JUKEBOX et insérez un disque musical (15 disques disponibles dans le jeu, trouvables dans des coffres ou récupérés en faisant tuer un creeper par un squelette). Le disque joue automatiquement quand mis dans le jukebox. Pour une boucle infinie sur serveur, utilisez des command blocks qui replacent le disque à chaque fin de morceau." },
+        { question: "Combien de personnes pour une fête Minecraft ?", answer: "5-10 personnes est l'idéal pour une fête fluide. Au-delà de 15, le serveur peut lagger et l'ambiance devient confuse. Pour 20+ joueurs, prévoyez 2 salles distinctes connectées par un couloir, avec 2 piste de danse. Réservez aussi des chambres d'invités pour ceux qui veulent dormir en jeu." }
+      ],
+      relatedSlugs: ["deco-chambre", "deco-interieur", "salle-de-bain", "manoir", "parc-attraction"]
+    }
+  },
+  {
+    slug: "tente",
+    keyword: "tente minecraft",
+    title: "Tente Minecraft : Guide de Construction",
+    h1: "Comment Construire une Tente dans Minecraft",
+    metaDescription: "Construisez une tente Minecraft : tipi indien, tente de camping ou tente médiévale. Guide complet avec 3 designs et matériaux accessibles.",
+    category: "building",
+    volume: 210,
+    content: {
+      intro: "La tente Minecraft est un projet rapide et charmant : 10-20 minutes de construction, peu de blocs, et un rendu très évocateur. Que ce soit pour un camp scout, une mise en scène médiévale ou un campement amérindien (tipi), elle s'intègre parfaitement à un paysage de forêt ou de plaine. Ce guide propose 3 designs distincts avec étapes claires.",
+      sections: [
+        { heading: "Tente de camping classique (toile triangulaire)", content: "Le design le plus simple : une tente triangulaire blanche posée au sol. Construction : posez 2 escaliers en laine blanche dos à dos (toit triangulaire) au-dessus de 4 blocs au sol formant la base. Multipliez sur 4-6 blocs de longueur pour la profondeur. Devant : laissez 1 ouverture en V (1 escalier de chaque côté). Ajoutez 4 panneaux de bois aux 4 coins (les piquets de tente). Total : 15-20 blocs, 5 minutes. Variantes : laine rouge ou bleue pour une tente colorée." },
+        { heading: "Tipi amérindien (cône avec ouverture)", content: "Le tipi est un cône en peau d'animal. Construction : posez 8 blocs en cercle (octogone) de 3 blocs de diamètre. Au-dessus, posez 8 blocs en formant un cône progressivement (chaque rangée plus petite et plus haute). Au sommet, 4 blocs avec 1 bloc d'air central (cheminée pour la fumée). Couleur : laine blanche ou marron (peau de bison). Sur les côtés, dessinez avec des panneaux orientés des motifs tribaux (lignes noires, triangles rouges). Devant : 1 ouverture en V haute de 2 blocs." },
+        { heading: "Tente médiévale (rectangulaire avec piliers)", content: "La tente médiévale d'un seigneur ou d'un campement militaire est plus grande et plus structurée. Construction : 4 piliers en bois aux 4 coins d'un rectangle 5x7 blocs. Au-dessus, un toit en pente double (escaliers de laine de chaque côté qui se rejoignent au sommet). Couleur : laine rouge avec bandes blanches verticales (style tournoi). Devant : 1 ouverture large de 3 blocs avec 2 panneaux ouverts (les 'rideaux' relevés). Sur le toit, plantez 1 bannière colorée (le blason du seigneur). Idéal pour un camp avant un château." },
+        { heading: "Aménagement intérieur d'une tente", content: "Une tente vide est triste. Aménagez l'intérieur avec : 1 lit (couleur assortie à la tente), 1 coffre, 1 table basse (1 dalle sur 1 bloc), 1 lanterne suspendue au sommet, 1 tapis au sol (laine d'une autre couleur), 1 cadre d'objet avec un objet personnel (épée, bouclier, livre). Pour une tente médiévale, ajoutez 1 armure complète sur un mannequin (armor stand). Pour un tipi, ajoutez 2-3 totems en bois. Ces détails transforment la tente en lieu vivant." }
+      ],
+      tips: ["Tente triangulaire classique : 2 escaliers de laine dos à dos sur 4-6 blocs de profondeur", "Tipi : octogone de 3 blocs de diamètre + cône progressif + ouverture sommet", "Tente médiévale : 4 piliers + toit en pente double + bannière au sommet", "Couleur de la laine selon le contexte : blanche (camping), rouge (médiéval), marron (tipi)", "Aménagez l'intérieur (lit, coffre, lanterne) pour donner vie"],
+      faq: [
+        { question: "Quels blocs pour une tente Minecraft ?", answer: "Toile : LAINE (toutes couleurs disponibles) ou PANNEAUX DE BOIS (look canvas). Structure : ESCALIERS de laine ou de bois pour la pente du toit. Piquets : PANNEAUX DE BOIS aux 4 coins. Décor : BANNIÈRES sur le toit (médiéval), CADRES D'OBJET pour suspendre des objets décoratifs." },
+        { question: "Combien de blocs pour une tente ?", answer: "Tente de camping : 15-20 blocs (5 min). Tipi : 25-30 blocs (10 min). Tente médiévale : 35-50 blocs avec aménagement intérieur (15-20 min). Excellent ratio temps/effet : peu de blocs pour beaucoup de charme." },
+        { question: "Peut-on dormir dans une tente Minecraft ?", answer: "Oui, posez un LIT à l'intérieur. Si vous êtes en survie et qu'il fait nuit, dormir dans le lit avance le temps jusqu'à l'aube. Attention : le bloc lit prend 2 cases (2 blocs de long), donc votre tente doit faire au minimum 3x3 blocs intérieurs pour accueillir un lit + un peu d'espace." }
+      ],
+      relatedSlugs: ["cabane-arbres", "petite-statue", "fontaine", "ranch", "maison-arbre"]
+    }
+  },
+  {
+    slug: "taverne",
+    keyword: "taverne minecraft",
+    title: "Taverne Minecraft : Guide de Construction",
+    h1: "Comment Construire une Taverne dans Minecraft",
+    metaDescription: "Construisez une taverne médiévale Minecraft : bar, tables, cheminée, chambres à l'étage. Guide complet avec ambiance authentique.",
+    category: "building",
+    volume: 210,
+    content: {
+      intro: "La taverne est le cœur social de tout village médiéval Minecraft : c'est là où les voyageurs s'arrêtent, mangent, boivent et passent la nuit. Un bon design de taverne combine un rez-de-chaussée chaleureux (bar, tables, cheminée) avec un étage d'auberge (chambres à louer). Ce guide détaille une taverne 11x9 blocs sur 2 étages, buildable en 2-3 heures, qui donne immédiatement vie à votre village.",
+      sections: [
+        { heading: "Plan général : auberge à 2 étages", content: "Plan recommandé : 11 blocs de long × 9 blocs de large × 2 étages. Rez-de-chaussée (hauteur 5 blocs) : SALLE COMMUNE avec bar, tables, cheminée. Étage (hauteur 4 blocs) : 3-4 CHAMBRES D'INVITÉS le long d'un couloir central. Toit en pente forte (45°+) avec lucarnes. Style architectural : COLOMBAGE médiéval (poutres apparentes en chêne foncé sur fond de torchis blanc). Cette empreinte permet de servir 8-12 'clients' en jeu, idéal pour un serveur multijoueur." },
+        { heading: "Bar central et tables", content: "Au fond de la salle commune, construisez le BAR : 5-7 blocs de bois sombre (planches de spruce inversées + dalles au-dessus) en 'L' pour permettre au tavernier de circuler derrière. Sur le bar, alignez 5-7 BOUTEILLES (potions vides en cadres d'objet). Derrière le bar, des étagères avec encore plus de bouteilles + tonneaux. AU SOL DE LA SALLE : 4-5 TABLES (1 dalle posée sur 1 panneau debout = table ronde, ou 4 escaliers en carré = table carrée) chacune entourée de 2-4 ESCALIERS retournés (les chaises). Comptez 4 tables pour 12-16 places assises." },
+        { heading: "Cheminée et ambiance", content: "La CHEMINÉE est le cœur d'ambiance d'une taverne. Construction : sur le mur opposé au bar, creusez un foyer de 3x2 blocs en brique rouge (nether brick) ou en pierre brute. À l'intérieur, posez 1 NETHERRACK + utilisez un briquet : feu permanent. Au-dessus, montez la cheminée verticalement de 5-7 blocs jusqu'au toit. Sur la cheminée, posez 2 chandeliers (armor stands + torches), 1 horloge ou cadran. Devant la cheminée, posez 1 grand TAPIS rouge ou marron, et 2 fauteuils (escaliers tournés vers le feu)." },
+        { heading: "Étage : chambres et couloir", content: "Au 1er étage, créez un COULOIR central de 2 blocs de large reliant l'escalier (au milieu de la salle commune en bas) à l'autre bout du bâtiment. De chaque côté du couloir, 3-4 PORTES qui ouvrent sur des CHAMBRES de 4x4 blocs chacune. Chaque chambre contient : 1 lit, 1 coffre (effets du voyageur), 1 table de chevet (dalle + lanterne), 1 cadre d'objet décoratif. Lucarnes en pignon dans chaque chambre. Variez la couleur des lits pour distinguer les chambres." }
+      ],
+      tips: ["Plan 11x9 blocs sur 2 étages : salle commune en bas, chambres en haut", "Style colombage médiéval (poutres chêne foncé sur torchis blanc)", "Bar central en L + 4-5 tables avec 2-4 chaises chacune (12-16 places)", "Cheminée centrale = netherrack + feu permanent (lumière niveau 15)", "Couloir central à l'étage + 3-4 chambres de 4x4 blocs avec lit"],
+      faq: [
+        { question: "Comment faire un bar Minecraft ?", answer: "Posez 5-7 panneaux de bois sombre verticaux (le devant du bar visible aux clients), alignés en 'L' au fond de la salle. Couvrez le sommet avec des dalles de bois (le comptoir). Derrière le bar, laissez 1 bloc d'espace pour la circulation. Sur le comptoir, alignez des bouteilles (potions en cadres d'objet) et 1 cloche pour appeler le tavernier." },
+        { question: "Comment éviter que la cheminée mette le feu à la taverne ?", answer: "Le feu sur netherrack est PERMANENT et NE SE PROPAGE PAS aux blocs adjacents (à condition que les blocs autour ne soient PAS inflammables). Construisez le foyer en BRIQUE DE PIERRE ou NETHER BRICK (résistants au feu). Évitez les planches de bois directement autour du feu : utilisez la pierre. Au-dessus, la cheminée peut être en bois (la chaleur ne monte pas dans Minecraft)." },
+        { question: "Faut-il un PNJ tavernier ?", answer: "Sur un serveur multijoueur, OUI : un joueur peut roleplay le tavernier. En solo, vous pouvez piéger un VILLAGEOIS PROFESSION 'BOUCHER' (avec un fumoir derrière le bar, le villageois prend automatiquement ce métier). Il vendra des items thématiques. Alternative : un ARMOR STAND habillé avec des vêtements de marchand (cuir teint marron), avec un panneau 'Tavernier'." }
+      ],
+      relatedSlugs: ["manoir", "fontaine-medievale", "moulin-medieval", "eglise-medievale", "tour-chateau"]
+    }
+  },
+  {
+    slug: "maison-tnt",
+    keyword: "maison tnt minecraft",
+    title: "Maison TNT Minecraft : Guide de Construction",
+    h1: "Comment Construire une Maison en TNT dans Minecraft",
+    metaDescription: "Construisez une maison en TNT Minecraft : design fun, sécurité (sans explosion accidentelle) et idée de prank multijoueur. Guide complet.",
+    category: "building",
+    volume: 170,
+    content: {
+      intro: "La maison en TNT est l'un des designs les plus fun et risqués de Minecraft : tout le bâtiment est construit avec des blocs de TNT (visuellement rouge et noir, ultra reconnaissables). C'est parfait pour un prank multijoueur, une zone de mini-jeu type 'TNT run', ou simplement un projet décoratif explosif. Ce guide explique comment construire la maison en SÉCURITÉ (sans risque d'explosion accidentelle) et comment l'utiliser pour pranker vos amis.",
+      sections: [
+        { heading: "Mode peaceful ou règles spéciales obligatoires", content: "ATTENTION : la TNT explose si elle est activée par : (1) un signal de redstone, (2) le feu, (3) une pression d'un piston explosif. Pour construire SANS RISQUE, jouez en MODE PEACEFUL ou DÉSACTIVEZ tnt avec /gamerule mobGriefing false. Évitez les blocs en feu à proximité (no torches sur la TNT directement). En multijoueur sur serveur, utilisez la commande /gamerule tntExplodes false (custom plugin) pour empêcher tout déclenchement accidentel." },
+        { heading: "Plan : maison cubique 5x5x5 simple", content: "Le design le plus simple : un cube 5x5x5 entièrement en TNT. Construction : posez le sol carré 5x5 en TNT. Empilez 4 murs verticaux de TNT sur 4 blocs de haut. Toit plat 5x5 en TNT. Total : 100 blocs de TNT. Comptez plusieurs heures pour rassembler autant de TNT en survie (chaque TNT = 4 sables + 5 poudres à canon). Découpez 1 PORTE D'ENTRÉE (1x2 blocs) et 2 fenêtres (1x1) en remplaçant la TNT par du verre." },
+        { heading: "Variantes plus créatives", content: "MAISON TNT DUO : moitié TNT rouge + moitié TNT non-explosive (modded). Murs en damier rouge/noir. STRUCTURE TNT AVEC DÉCO : posez la TNT comme structure mais ajoutez des éléments décoratifs (fenêtres en verre teinté, porte en bois, jardinières devant). MAISON TNT MULTI-ÉTAGE : 2-3 étages de TNT empilés, avec escalier intérieur en bois. Le contraste TNT (rouge agressif) + bois (chaleureux) crée un look unique. Variante FUN : posez 4-5 sliens TNT au sommet du toit (effet 'bombe stylisée')." },
+        { heading: "Utiliser la maison pour un prank multijoueur", content: "Une maison TNT est PARFAITE pour pranker un ami sur serveur : invitez-le à 'visiter votre nouvelle maison'. Préparez secrètement un BOUTON ou LEVIER caché à l'extérieur, connecté par redstone à toute la TNT. Quand votre ami est à l'intérieur... BOUM. Précautions : (1) Sauvegardez une COPIE de la maison avant le prank (avec /world copy ou plugin). (2) Prévenez quand même votre ami que c'est une maison TNT (le suspense fait partie du fun). (3) Filmez la scène pour le partage." }
+      ],
+      tips: ["Désactivez tntExplodes via /gamerule pour construire sans risque", "Évitez torches/feu/redstone à proximité de la TNT", "Cube simple 5x5x5 = 100 blocs de TNT (1h de farm en survie)", "Mélangez TNT + bois pour un look 'maison piégée stylée'", "Pour pranker : sauvegardez d'abord, puis bouton caché + redstone vers TNT"],
+      faq: [
+        { question: "La TNT peut-elle exploser sans qu'on le veuille ?", answer: "Oui, plusieurs déclencheurs accidentels : (1) Signal de redstone (lampe, levier, bouton). (2) Mob feu (blaze, ghast). (3) Lave qui touche la TNT. (4) Flèche enflammée. Pour éviter : éloignez tout mob hostile, n'utilisez pas de redstone à proximité, désactivez tntExplodes en gamerule." },
+        { question: "Combien de TNT pour une maison complète ?", answer: "Maison cube 5x5x5 : 100 blocs de TNT. Maison 7x7x7 : 220 blocs. Maison à étage 7x7x6 : ~250 blocs. Chaque TNT coûte 4 sables + 5 poudres à canon (drop des creepers). Pour une maison cubique simple, comptez 25 sables + 125 poudres à canon, soit 25 creepers à tuer (long en survie). Astuce : ferme à creepers pour farmer la poudre rapidement." },
+        { question: "Peut-on rendre la TNT non-explosive ?", answer: "En vanilla, non — la TNT explose toujours quand activée. Avec des MODS comme MoreCraftingTables ou des datapacks, vous pouvez créer un bloc 'TNT décorative' qui ressemble à la TNT mais ne réagit pas à la redstone. En serveur, désactivez globalement les explosions de TNT via gamerule ou plugin (la TNT existe mais n'explose pas)." }
+      ],
+      relatedSlugs: ["base-secrete", "labyrinthe", "petit-chateau", "tour-chateau", "parc-attraction"]
+    }
+  },
+  {
+    slug: "hangar",
+    keyword: "hangar minecraft",
+    title: "Hangar Minecraft : Guide de Construction",
+    h1: "Comment Construire un Hangar dans Minecraft",
+    metaDescription: "Construisez un hangar Minecraft : aviation, agricole ou industriel. Toit voûté, grandes portes coulissantes, intérieur dégagé. Guide complet.",
+    category: "building",
+    volume: 110,
+    content: {
+      intro: "Le hangar est un bâtiment industriel utilitaire : grand espace dégagé sous un toit voûté ou en pente, idéal pour stocker des véhicules (avions, véhicules avec mods), du matériel agricole, ou organiser un atelier. Avec son grand volume et son toit caractéristique, c'est aussi un excellent projet d'architecture pour pratiquer les structures sans murs porteurs internes. Ce guide propose 3 styles : hangar aviation, hangar agricole, hangar industriel.",
+      sections: [
+        { heading: "Hangar aviation (toit voûté arrondi)", content: "Le hangar d'aviation classique : toit en VOÛTE arrondie, grandes portes frontales, intérieur dégagé. Plan : 15 blocs de large × 25 blocs de long × 12 blocs de haut au point culminant. Murs latéraux en BÉTON GRIS ou en TÔLE (panneaux de fer + écorce de spruce). Le toit voûté se construit avec des escaliers de pierre polie : 5 marches de chaque côté qui se rejoignent au sommet. À l'avant, une GRANDE PORTE COULISSANTE 8x8 blocs (8 trappes de fer alignées). Intérieur sans piliers (la voûte tient toute seule visuellement)." },
+        { heading: "Hangar agricole (toit en pente double)", content: "Le hangar agricole est plus rustique et moins haut. Plan : 11 blocs de large × 17 blocs de long × 7 blocs de haut. Murs en planches de spruce (look bois usé) avec poutres en chêne foncé tous les 3 blocs. Toit en PENTE DOUBLE (50°) en escaliers de nether brick rouge ou de blackstone. À l'avant, 2 GRANDES PORTES À DOUBLE BATTANT en planches de bois (4 blocs de haut × 2 chaque). Intérieur : 1-2 piliers centraux en bois pour soutenir le toit, sol en gravier (terre battue). Idéal pour stocker tracteurs, matériel agricole, foin (balle de foin Minecraft)." },
+        { heading: "Hangar industriel (béton et tôle)", content: "Le hangar industriel moderne : matériaux froids et utilitaires. Plan : 17 blocs de large × 30 blocs de long × 10 blocs de haut. Murs en béton gris clair + bandes horizontales en béton gris foncé (effet panneau industriel). Toit en pente DOUBLE peu marquée (15°) en blackstone polished. Façade avant : 1 GRANDE PORTE D'EXPÉDITION en trappes de fer (5x5 blocs). À côté, 1 PORTE PIÉTONNE en fer (1x2 blocs). Fenêtres horizontales hautes (1 bloc de haut × 5 longs) sur les côtés pour la lumière. Intérieur : sol en béton + bandes jaunes (laine) pour les couloirs piétons." },
+        { heading: "Aménagement intérieur d'un hangar", content: "Aménagez l'intérieur selon l'usage : (1) HANGAR AVIATION : un grand vide central avec un avion construit en blocs (50 blocs de long, ailes, hélice/réacteur), 2-3 véhicules de service. (2) HANGAR AGRICOLE : balles de foin empilées, 2-3 tracteurs (blocs orange + roues en blocs noirs), outils accrochés au mur (haches, pelles dans cadres d'objet). (3) HANGAR INDUSTRIEL : palettes (panneaux empilés), conteneurs (blocs verts/bleus 4x4 blocs), grue mobile (structure verticale en fer 8 blocs)." }
+      ],
+      tips: ["3 styles principaux : aviation (voûte), agricole (pente double), industriel (plat)", "Hauteur recommandée : 7 blocs (agricole) à 12 blocs (aviation)", "Grande porte frontale = trappes de fer alignées (effet porte coulissante)", "Voûte en escaliers de pierre polie qui se rejoignent au sommet", "Aménagez l'intérieur selon l'usage : avion / tracteur / palettes"],
+      faq: [
+        { question: "Comment faire un toit voûté Minecraft ?", answer: "Utilisez des ESCALIERS DE PIERRE POLIE en arc : chaque côté monte progressivement (1 escalier = 1 bloc plus haut), puis le sommet est plat (3-5 blocs alignés). Plus la voûte est grande, plus le rendu est impressionnant. Alternative plus simple : pente double en escaliers (plus banal mais plus rapide)." },
+        { question: "Faut-il des piliers à l'intérieur ?", answer: "Pour un hangar de 11 blocs de large maximum, NON, vous pouvez avoir un intérieur sans pilier (la 'voûte' tient visuellement). Pour 15+ blocs de large, ajoutez 1-2 piliers centraux ou utilisez des poutres en bois apparentes au plafond pour donner l'illusion de soutènement (sans gêner l'espace au sol)." },
+        { question: "Quelle est la différence avec un entrepôt ?", answer: "Un HANGAR a un grand espace dégagé, un toit caractéristique (voûte ou pente forte), et une porte d'expédition large. Un ENTREPÔT est plus compartimenté (plusieurs étages, mezzanine, allées), avec rangements verticaux (rayonnages, étagères industrielles). Le hangar est pour stocker du gros, l'entrepôt pour stocker du petit en grand nombre." }
+      ],
+      relatedSlugs: ["port-medieval", "stade-foot", "ferme-automatique", "entrepot", "atelier"]
+    }
+  },
+  {
+    slug: "aqueduc",
+    keyword: "aqueduc minecraft",
+    title: "Aqueduc Minecraft : Guide de Construction",
+    h1: "Comment Construire un Aqueduc dans Minecraft",
+    metaDescription: "Construisez un aqueduc romain Minecraft : arches, canal d'eau et structure imposante. Guide complet avec plan et blocs détaillés.",
+    category: "building",
+    volume: 70,
+    content: {
+      intro: "L'aqueduc romain est l'un des projets de construction les plus grandioses possibles dans Minecraft : une longue suite d'ARCHES en pierre supportant un CANAL D'EAU qui traverse vallées, rivières et collines. Le Pont du Gard, l'aqueduc de Ségovie ou la Conduite romaine de Lyon ont inspiré des centaines de builds Minecraft. Ce guide détaille la construction d'un aqueduc à 2 niveaux d'arches, 50 blocs de long.",
+      sections: [
+        { heading: "Choix de l'emplacement et du tracé", content: "L'aqueduc doit relier 2 POINTS distincts : une source d'eau (rivière, lac, source en montagne) et un point d'arrivée (ville, ferme, bassin). Tracez le chemin sur la carte : préférez les TERRAINS DÉGAGÉS (plaines, vallées) où l'aqueduc sera bien visible. Plus le terrain est ACCIDENTÉ, plus l'aqueduc est impressionnant (plus haut sur les vallées, plus bas sur les collines). Hauteur cible : 15-25 blocs au-dessus du sol au point le plus haut. Longueur cible : 50-100 blocs (au-delà, c'est un projet de plusieurs heures)." },
+        { heading: "Construction des piliers de base", content: "Posez les PILIERS DE FONDATION tous les 7 blocs le long du tracé. Chaque pilier : carré 3x3 blocs en pierre brute ou cobblestone, montant jusqu'à la hauteur de l'aqueduc moins la hauteur des arches. Au-dessus de chaque pilier, vous construirez une arche. Astuce : posez les piliers sur des FONDATIONS PROFONDES (1-2 blocs sous le sol) pour le réalisme. Ajoutez des CHAÎNAGES horizontaux entre les piliers à mi-hauteur (1 ligne de pierre) pour le style romain." },
+        { heading: "Arches semi-circulaires", content: "Au sommet de chaque pilier, construisez une ARCHE SEMI-CIRCULAIRE : 7 blocs de large à la base, qui rétrécit progressivement par escaliers et dalles inversés jusqu'à 1 bloc au sommet. Méthode bloc par bloc (largeur de l'arche = 7) : (1) Au sommet du pilier, 2 blocs verticaux. (2) Puis escaliers inversés tournés vers l'intérieur sur 2-3 niveaux. (3) Au sommet, 3 blocs horizontaux pour fermer l'arche. Répétez sur tous les piliers : vous obtenez une longue colonnade d'arches." },
+        { heading: "Canal d'eau au sommet", content: "Au-dessus de toutes les arches, construisez le CANAL : 2 blocs de large, 1 bloc de profondeur, ouvert au-dessus. Bordez les 2 côtés du canal avec des blocs pleins (pierre taillée). Posez 1 SEAU D'EAU au début du canal (côté source) : l'eau coule sur toute la longueur. Pour assurer un FLUX CONTINU, ajoutez 1 source d'eau tous les 7 blocs (au-dessus de chaque pilier). À l'arrivée, faites tomber l'eau dans un BASSIN COLLECTEUR (3x3 blocs) qui alimente votre village. Pour un effet 'moderne romain', ajoutez 4-6 lanternes le long du canal." }
+      ],
+      tips: ["Tracez le chemin entre 2 points (source d'eau ↔ point d'arrivée) AVANT construction", "Piliers tous les 7 blocs, en pierre brute ou cobblestone", "Arches semi-circulaires avec escaliers et dalles inversés", "Canal au sommet : 2 blocs large, 1 profond, sources d'eau tous les 7 blocs", "Plus le terrain est accidenté, plus l'aqueduc est impressionnant"],
+      faq: [
+        { question: "Quels blocs pour un aqueduc romain authentique ?", answer: "Pierre brute, cobblestone et pierre taillée pour le corps. Brique de pierre pour les corniches (plus net). Mélangez ces 3 types de pierre pour éviter la monotonie. Évitez le marbre (trop moderne) et le bois (pas authentique). Quelques blocs de mousse pour vieillir l'aqueduc (effet 'romain abandonné depuis 2000 ans')." },
+        { question: "Comment faire couler l'eau sur toute la longueur ?", answer: "Posez 1 source d'eau (seau placé) tous les 7 blocs maximum dans le canal. L'eau coule à partir de chaque source et se rejoint pour former un flux continu. Sans source intermédiaire, le flux s'arrête au bout de 7 blocs (limite du jeu). Pour un aqueduc de 50 blocs, comptez 8 seaux d'eau." },
+        { question: "Peut-on construire un aqueduc à 2 niveaux d'arches ?", answer: "Oui, c'est même le style le plus impressionnant (Pont du Gard a 3 niveaux). Méthode : construisez d'abord le niveau 1 (arches basses), puis posez sur leur sommet une dalle continue, puis construisez un 2e niveau d'arches plus petites (5 blocs de large) au-dessus. Le canal d'eau est tout en haut. Hauteur totale : 30+ blocs. Projet ambitieux." }
+      ],
+      relatedSlugs: ["pont", "fontaine", "moulin", "port-medieval", "tour-chateau"]
+    }
+  },
+  {
+    slug: "maison-abeille",
+    keyword: "maison abeille minecraft",
+    title: "Maison Abeille Minecraft : Guide de Construction",
+    h1: "Comment Construire une Maison Abeille dans Minecraft",
+    metaDescription: "Construisez une maison abeille Minecraft : forme ronde, jaune et noir, alvéoles. Idéal pour ferme à miel ou décoration kawaii.",
+    category: "building",
+    volume: 70,
+    content: {
+      intro: "La maison abeille est un design fun et kawaii : un bâtiment rond aux couleurs jaune et noir, qui imite l'apparence d'une abeille géante ou d'un nid. C'est parfait pour décorer une ferme à miel, créer un coin pour enfants dans une base, ou simplement pour se démarquer d'une architecture conventionnelle. Construction rapide (45 min), matériaux accessibles, rendu très original.",
+      sections: [
+        { heading: "Plan et inspiration : abeille ou alvéoles ?", content: "2 approches possibles : (1) MAISON EN FORME D'ABEILLE : corps rond noir et jaune (rayures), 2 yeux noirs, 4 ailes en panneaux blancs au-dessus, dard pointu à l'arrière. (2) MAISON EN FORME D'ALVÉOLES : structure hexagonale géante (les rayons d'une ruche). Pour ce guide, on combine les 2 : structure hexagonale extérieure avec décoration abeille à l'avant. Diamètre : 9 blocs, hauteur 7 blocs." },
+        { heading: "Construire la base hexagonale", content: "Tracez un HEXAGONE de 9 blocs de diamètre au sol. Méthode : posez 1 bloc, puis 4 blocs alignés à 60° (en zigzag), puis 4 autres à 60° dans la direction opposée, etc. Vous obtenez un hexagone régulier. Utilisez du HONEYCOMB BLOCK (blocs de nid d'abeille, Minecraft 1.15+) ou de la TERRE CUITE JAUNE pour les murs. Hauteur des murs : 5 blocs. Le toit hexagonal en pente, en escaliers de béton noir, qui se rejoignent au sommet." },
+        { heading: "Décoration extérieure : rayures et yeux", content: "Pour transformer la base hexagonale en VRAIE 'maison abeille' : ajoutez 2-3 RAYURES HORIZONTALES en béton noir autour des murs jaunes (alternez 2 blocs jaunes / 1 bloc noir, sur 3 niveaux). À l'avant, dessinez 2 GRANDS YEUX NOIRS : 2 carrés de béton noir 2x2 blocs, espacés de 2 blocs, à hauteur de l'œil. Au-dessus de la porte, ajoutez 4 PETITES AILES en panneaux blancs (2 paires symétriques). À l'arrière, plantez 1 DARD : 3 blocs de béton noir pointus en triangle dépassant du mur arrière." },
+        { heading: "Aménagement intérieur thème miel", content: "Aménagez l'intérieur en thème miel : sol en honeycomb block (blocs de nid d'abeille), murs intérieurs en miel block (blocs de miel, gluants visuellement). Au centre, placez 4-6 RUCHES MINECRAFT (blocs ruche/beehive) qui produisent du miel quand des abeilles sont à proximité. Ajoutez 3-4 BIOMES VOISINS adaptés (champ de fleurs avec 4-5 abeilles peuplées). Lit en laine jaune. Coffres en bois clair. Lanterne au plafond. Excellent pour une FERME À MIEL automatique." }
+      ],
+      tips: ["Forme hexagonale = base d'une vraie maison abeille (alvéoles)", "Murs en honeycomb block ou terre cuite jaune + rayures noires", "Détails à l'avant : 2 yeux noirs, 4 ailes en panneaux blancs, dard à l'arrière", "Intérieur thème miel : sol en honeycomb, ruches au centre, abeilles autour", "Diamètre 9 blocs, hauteur 7 blocs : 45 minutes de construction"],
+      faq: [
+        { question: "Quels blocs pour la couleur jaune-abeille ?", answer: "(1) HONEYCOMB BLOCK (Minecraft 1.15+) : couleur naturelle nid d'abeille. (2) TERRE CUITE JAUNE : couleur jaune saturée. (3) BÉTON JAUNE : encore plus saturé. Mélangez les 3 pour un look intéressant. Évitez la laine jaune (texture trop unie)." },
+        { question: "Comment construire un hexagone régulier Minecraft ?", answer: "Méthode 'pas à pas' : posez 1 bloc, puis 1 bloc en diagonale (zigzag), 1 bloc droit, 1 bloc en diagonale opposée, etc. Pour un hexagone de 9 blocs de diamètre : 4 blocs côté nord, descente diagonale 2-3 blocs, 4 blocs côté sud-ouest, etc. Avec un peu de pratique, l'hexagone régulier devient naturel. Plus simple : commencez par tracer un OCTOGONE (carré aux coins coupés) si l'hexagone est trop dur." },
+        { question: "Comment attirer des abeilles dans la maison ?", answer: "Plantez 5-10 FLEURS (toutes espèces) dans un rayon de 20 blocs de la maison. Si une RUCHE Minecraft contient déjà des abeilles, elles sortent et butinent les fleurs. Pour ajouter des abeilles manuellement, capturez-en (avec un seau d'abeille, après les avoir attirées avec des fleurs) et libérez-les près de votre maison. Elles peupleront les ruches automatiquement." }
+      ],
+      relatedSlugs: ["maison-champignon", "maison-arbre", "ferme-automatique", "tente", "petite-statue"]
+    }
   }
+
 ];
