@@ -2722,5 +2722,31 @@ export const buildingPages: PageData[] = [
       relatedSlugs: ["maison-arbre", "tente", "petite-statue", "fontaine", "deco-chambre"]
     }
   }
+,
+  {
+    slug: "pont-suspendu",
+    keyword: "pont suspendu minecraft",
+    title: "Pont Suspendu Minecraft : Guide de Construction",
+    h1: "Comment Construire un Pont Suspendu dans Minecraft",
+    metaDescription: "Construisez un pont suspendu Minecraft : 3 designs (corde simple, métallique style Golden Gate, médiéval forteresse). Guide complet avec haubans, tablier et piliers.",
+    category: "building",
+    volume: 210,
+    content: {
+      intro: "Le pont suspendu est l'un des projets de construction les plus visuels et impressionnants de Minecraft : tablier qui semble flotter, câbles tendus, pylônes massifs. Que ce soit un petit pont rustique en cordes pour traverser une rivière ou un méga-pont métallique inspiré du Golden Gate, le principe est le même : 2 piliers d'extrémité, des câbles en suspension, un tablier qui suit la courbure des câbles. Ce guide propose 3 designs (rustique en bois, métallique moderne, médiéval défensif) avec dimensions exactes et liste de blocs.",
+      sections: [
+        { heading: "Anatomie d'un pont suspendu Minecraft", content: "Tout pont suspendu a 4 éléments : (1) PILIERS D'EXTRÉMITÉ massifs (les pylônes/tours), (2) CÂBLES PRINCIPAUX qui partent du sommet d'un pylône, descendent en courbe puis remontent au pylône opposé, (3) HAUBANS verticaux qui relient les câbles principaux au tablier, (4) TABLIER (la route piétonne ou véhicule). Plus la portée est grande (distance entre les 2 pylônes), plus le pont est impressionnant. Portée recommandée Minecraft : 20-50 blocs. En dessous de 15 blocs, l'effet 'suspendu' ne se voit pas. Au-dessus de 80 blocs, devient ingérable et peu crédible." },
+        { heading: "Design rustique en bois et cordes (30 min)", content: "Pour un pont rustique sur une petite rivière. PILIERS : 2 tours en bois sombre (planches de spruce), 5 blocs de haut, 2x2 blocs de section. CÂBLES PRINCIPAUX : utilisez des CHAÎNES (chains, Minecraft 1.16+) ou des FILS (string sur poteaux invisibles). Posez les chaînes du sommet d'un pylône, descendantes en arc, jusqu'au sommet de l'autre. Pour la courbure : chaque chaîne descend d'1 bloc tous les 2 blocs horizontaux, puis remonte. HAUBANS : chaînes verticales tous les 3 blocs, du câble principal au tablier. TABLIER : 2-3 blocs de large en planches de chêne avec garde-corps en clôtures de bois. Total : 80-120 blocs." },
+        { heading: "Design métallique moderne (style Golden Gate, 1h)", content: "Pour un méga-pont impressionnant inspiré du Golden Gate Bridge. PILIERS : 2 tours en blocs de fer (rouge oxydé : terre cuite rouge, ou orange : béton orange), 12-15 blocs de haut, 3x3 blocs de section. Au sommet de chaque pylône, posez 1 bloc de glowstone (lumière de signalisation). CÂBLES PRINCIPAUX : utilisez des CHAÎNES en métal noir (Minecraft chain block) suspendues du sommet d'un pylône à l'autre, formant 2 grands arcs parallèles (1 chaîne de chaque côté du tablier). HAUBANS : chaînes verticales tous les 2 blocs, descendant des câbles principaux jusqu'au tablier. TABLIER : 4-5 blocs de large en blocs de fer + bandes de béton noir (la chaussée), avec garde-corps en barreaux de fer. Total : 250-400 blocs." },
+        { heading: "Design médiéval défensif (45 min)", content: "Pour un pont qui traverse les douves d'un château ou une vallée encaissée. PILIERS : 2 tours en pierre brute + brique de pierre moussue, 8-10 blocs de haut, 4x4 blocs de section, avec créneaux au sommet (alternance bloc plein / bloc d'air). CÂBLES PRINCIPAUX : suspendus en chaînes de fer (chains) sombres. HAUBANS : chaînes plus rares (tous les 4 blocs, look 'pont moins moderne'). TABLIER : 3 blocs de large en planches de chêne sombre + bordures de pierre. Touche défensive : ajoutez 2-3 lanternes pendues au-dessus du tablier (poutres en bois + chaîne + lanterne). Aux 2 entrées du pont, 2 herses (blocs de fer carrés 2x2). Total : 200-300 blocs." }
+      ],
+      tips: ["Portée recommandée : 20-50 blocs entre les 2 pylônes (en dessous, l'effet ne se voit pas)", "Câbles principaux en CHAÎNES Minecraft (1.16+) qui descendent en arc puis remontent", "Haubans verticaux tous les 2-4 blocs reliant les câbles au tablier", "Pour la courbure des câbles : descendre d'1 bloc tous les 2 blocs horizontaux", "Pylônes massifs (3x3 ou 4x4 blocs) pour soutenir visuellement la suspension"],
+      faq: [
+        { question: "Quel est l'effet 'suspendu' visuellement ?", answer: "L'effet vient de 3 choses : (1) Le TABLIER ne touche pas le sol (il est au milieu, à 5+ blocs de hauteur). (2) Les CÂBLES PRINCIPAUX descendent en courbe entre les 2 pylônes (parabole inversée). (3) Les HAUBANS verticaux descendent des câbles principaux jusqu'au tablier. Sans ces 3 éléments, ce n'est PAS un pont suspendu mais un pont à arches ou à poutres." },
+        { question: "Quels blocs pour les câbles principaux ?", answer: "(1) CHAÎNES Minecraft (Minecraft 1.16+, bloc 'chain') — le plus authentique. (2) FILS (string) tendus entre 2 poteaux invisibles — moins visible. (3) Barreaux de FER (iron bars) verticaux — alternative pour les ponts modernes. La chaîne reste la meilleure option visuellement. Comptez 20-50 chaînes par câble, soit 40-100 chaînes pour les 2 côtés du pont." },
+        { question: "Comment éviter que le pont ait l'air trop petit ?", answer: "Trois règles : (1) HAUTEUR du pont au-dessus du sol : 5-10 blocs minimum (sinon il paraît collé au sol). (2) PORTÉE entre les pylônes : 20+ blocs (sinon le suspension n'a pas de sens). (3) HAUTEUR des pylônes : 8+ blocs au-dessus du tablier (pour que les câbles aient une vraie courbure). Ces 3 mesures combinées donnent l'effet majestueux d'un pont suspendu." }
+      ],
+      relatedSlugs: ["pont", "tour-chateau", "phare", "aqueduc", "petit-pont"]
+    }
+  }
 
 ];
