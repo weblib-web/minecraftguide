@@ -2696,5 +2696,31 @@ export const buildingPages: PageData[] = [
       relatedSlugs: ["maison-champignon", "maison-arbre", "ferme-automatique", "tente", "petite-statue"]
     }
   }
+,
+  {
+    slug: "niche-chien",
+    keyword: "niche chien minecraft",
+    title: "Niche pour Chien Minecraft : Guide de Construction",
+    h1: "Comment Construire une Niche pour Chien dans Minecraft",
+    metaDescription: "Construisez une niche pour votre chien Minecraft (loup apprivoisé) : 4 designs (rustique, moderne, médiévale, kawaii) avec étapes et matériaux. Tuto complet en 10 minutes.",
+    category: "building",
+    volume: 90,
+    content: {
+      intro: "Votre loup apprivoisé Minecraft mérite mieux qu'un coin de votre maison : une vraie NICHE pour chien lui donne sa propre maison, structure votre jardin et apporte une touche adorable à votre base. Ce guide propose 4 designs distincts (rustique en bois, moderne en quartz, médiévale en pierre, kawaii colorée), tous buildables en 5 à 15 minutes avec des matériaux accessibles dès le début de partie. Bonus : techniques pour faire en sorte que votre loup utilise réellement la niche (assise + bol de nourriture).",
+      sections: [
+        { heading: "Anatomie d'une niche fonctionnelle", content: "Une bonne niche Minecraft a 4 éléments : (1) ABRI fermé sur 3 côtés (toit + 2 murs latéraux + 1 mur arrière), (2) OUVERTURE FRONTALE de 1x2 blocs minimum (le chien doit pouvoir entrer), (3) SOL DOUX (tapis de laine ou dalle de bois), (4) ÉLÉMENT DE NOURRISSAGE devant (bol de viande crue dans un cadre d'objet). Taille minimum : 3x3 blocs au sol, 3 blocs de haut. C'est juste assez pour qu'un loup adulte y entre confortablement et y dorme. Évitez les niches trop grandes : 5x5+ blocs perdent l'effet 'niche' et deviennent une simple cabane." },
+        { heading: "Design rustique en bois (5 minutes, 15 blocs)", content: "Le design le plus simple et accessible. MURS : posez 3 planches de chêne ou de spruce verticales pour le mur arrière, puis 3 planches sur chaque côté. Laissez la façade ouverte (avec juste 1 panneau de bois en haut pour le linteau). TOIT : 2 escaliers en bois posés en V inversé pour former une pente double. SOL : 1 tapis de laine marron à l'intérieur (le 'lit' du chien). DEVANT : 1 cadre d'objet sur le sol contenant un OS (récompense visuelle). Décoration : 1 panneau au-dessus de l'entrée avec le nom du chien. Total : 15 blocs, 5 min." },
+        { heading: "Design moderne en quartz (10 minutes, 25 blocs)", content: "Pour une base moderne ou minimaliste. MURS : posez du quartz lisse sur 3 côtés (3x3 sur le mur arrière, 3x2 sur les côtés). TOIT plat en dalles de quartz (3x3 blocs). SOL en quartz lisse avec 1 tapis blanc au centre. ENTRÉE : ouverture frontale 1x2 blocs avec un bouton de quartz à droite (effet 'sonnette'). Devant la niche, posez 2 chaudrons : 1 rempli d'eau (gamelle d'eau), 1 vide où placer un cadre avec viande crue (gamelle de croquettes). 1 lampe à redstone cachée dans le toit (allumée la nuit). Total : 25 blocs, 10 min." },
+        { heading: "Design médiéval et design kawaii", content: "DESIGN MÉDIÉVAL : structure en pierre brute + brique de pierre moussue. Toit en escaliers de nether brick rouge (effet tuile). Ajoutez 1 lanterne suspendue à un poteau de bois devant la niche, et 1 panneau gravé avec le nom du chien (style 'Garde du Château'). Touche bonus : 4 vignes qui pendent de chaque côté du toit pour l'effet ancien. DESIGN KAWAII : niche entièrement en laine rose ou jaune, toit en laine d'une autre couleur. Devant la niche : 2 fleurs en pot (1 rose, 1 marguerite) et 1 tapis colorée. À l'intérieur : 1 lit de la même couleur (oui, un VRAI lit Minecraft, votre chien peut s'y asseoir). Idéal pour serveurs familiaux ou bases mignonnes." }
+      ],
+      tips: ["Taille minimum 3x3x3 blocs : assez pour un loup adulte sans être disproportionné", "Laissez l'ouverture frontale 1x2 blocs (le chien doit y entrer)", "1 tapis de laine au sol = le 'lit' du chien, ajoute beaucoup de charme", "Cadre d'objet avec un OS ou de la viande crue = bol de nourriture visuel", "Faites ASSEOIR votre loup devant la niche (clic droit avec main vide) pour qu'il y reste"],
+      faq: [
+        { question: "Comment faire en sorte que mon loup utilise la niche ?", answer: "Les loups Minecraft ne 'rentrent' pas automatiquement dans la niche — c'est purement décoratif. Pour qu'ils restent près : (1) Faites ASSEOIR votre loup avec un clic droit (main vide) juste devant ou dans la niche : il y restera assis tant que vous ne lui demandez pas de se lever. (2) Posez 1 lit Minecraft à côté : si vous dormez, le loup attend là. (3) Mettez un collier coloré au loup (clic droit avec un colorant) pour le repérer dans le groupe." },
+        { question: "Combien de niches pour plusieurs chiens ?", answer: "Construisez 1 niche par chien si vous avez 2-4 loups, alignées en 'rangée de chenils'. Pour 5+ loups, optez pour une GRANDE niche commune (5x5x4 blocs) qui les abrite tous. Vous pouvez aussi faire un CHENIL à plusieurs compartiments : 4 mini-niches alignées, chacune 3x3 avec une cloison. Les loups apprivoisés peuvent dormir dans la même zone sans problème." },
+        { question: "Quels blocs pour une niche réaliste ?", answer: "Bois : planches de chêne (rustique), planches de cerisier (kawaii), planches de spruce (montagne). Pierre : pierre moussue + brique de pierre (médiéval). Toit : escaliers en bois (rustique), dalles de quartz (moderne), nether brick rouge (tuiles médiévales). Touches : tapis de laine (le lit), cadre d'objet avec os, lanterne pour l'éclairage." }
+      ],
+      relatedSlugs: ["maison-arbre", "tente", "petite-statue", "fontaine", "deco-chambre"]
+    }
+  }
 
 ];
