@@ -35,7 +35,7 @@ export function createGenerateMetadata(
         siteName: "MinecraftGuide.fr",
       },
       alternates: {
-        canonical: `https://minecraftguide.fr/${category.slug}/${page.slug}`,
+        canonical: `https://minecraftguide.fr/${category.slug}/${page.slug}/`,
       },
     };
   };
@@ -55,15 +55,15 @@ export function createCategoryPage(
     if (!page) notFound();
 
     const breadcrumbs = [
-      { name: category.name, href: `/${category.slug}` },
-      { name: page.h1, href: `/${category.slug}/${page.slug}` },
+      { name: category.name, href: `/${category.slug}/` },
+      { name: page.h1, href: `/${category.slug}/${page.slug}/` },
     ];
 
     const relatedPages = pages
       .filter((p) => page.content.relatedSlugs.includes(p.slug))
       .map((p) => ({
         title: p.h1,
-        href: `/${category.slug}/${p.slug}`,
+        href: `/${category.slug}/${p.slug}/`,
       }));
 
     return (
@@ -73,7 +73,7 @@ export function createCategoryPage(
           data={{
             title: page.title,
             description: page.metaDescription,
-            url: `https://minecraftguide.fr/${category.slug}/${page.slug}`,
+            url: `https://minecraftguide.fr/${category.slug}/${page.slug}/`,
             datePublished: "2025-01-01",
             dateModified: new Date().toISOString().split("T")[0],
           }}

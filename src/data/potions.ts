@@ -102,7 +102,7 @@ export const potionsPages: PageData[] = [
           answer: "La version de base dure 1:30 (1 minute 30). Avec de la poudre de redstone, la durée passe à 4:00 (4 minutes). L'effet réduit les dégâts de mêlée de 4 points (2 coeurs)."
         }
       ],
-      relatedSlugs: ["invisibilite", "force", "soin", "craft-potion-faiblesse", "fiole-eau"]
+      relatedSlugs: ["invisibilite", "force", "soin", "rapidite", "fiole-eau"]
     }
   },
   {

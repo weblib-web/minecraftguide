@@ -309,7 +309,7 @@ export const enchantmentsPages: PageData[] = [
         { question: "Flamme fonctionne-t-il avec les flèches spéciales ?", answer: "Oui, les flèches à pointe (tipped arrows) combinées avec Flamme appliquent à la fois l'effet de la potion et le feu. C'est très puissant en PvP." },
         { question: "Flamme ou Infinité en premier ?", answer: "Les deux sont compatibles sur le même arc. Flamme ajoute des dégâts de feu, Infinité permet de tirer sans consommer de flèches. Par contre, Infinité et Raccommodage sont mutuellement exclusifs." }
       ],
-      relatedSlugs: ["infinite", "enchantement-arc", "aura-de-feu", "puissance", "liste-enchantements"]
+      relatedSlugs: ["infinite", "enchantement-arc", "aura-de-feu", "charge-rapide", "liste-enchantements"]
     }
   },
   {

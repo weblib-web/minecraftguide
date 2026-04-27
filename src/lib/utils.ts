@@ -83,7 +83,7 @@ export interface Category {
 export const categories: Category[] = [
   {
     name: "Crafting",
-    slug: "crafting",
+    slug: "comment-faire",
     description: "Toutes les recettes de craft Minecraft",
     icon: "/icons/crafting.svg",
   },
@@ -128,6 +128,24 @@ export const categories: Category[] = [
     slug: "ferme",
     description: "Fermes automatiques et manuelles",
     icon: "/icons/ferme.svg",
+  },
+  {
+    name: "Biomes",
+    slug: "biome",
+    description: "Tous les biomes Minecraft",
+    icon: "/icons/biome.svg",
+  },
+  {
+    name: "Structures",
+    slug: "structure",
+    description: "Donjons, temples et structures",
+    icon: "/icons/structure.svg",
+  },
+  {
+    name: "Guides",
+    slug: "guide",
+    description: "Astuces et guides de gameplay",
+    icon: "/icons/guide.svg",
   },
   {
     name: "Constructions",

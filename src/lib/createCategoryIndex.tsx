@@ -9,7 +9,7 @@ export function createCategoryIndex(
 ) {
   return function CategoryIndex() {
     const breadcrumbs = [
-      { name: category.name, href: `/${category.slug}` },
+      { name: category.name, href: `/${category.slug}/` },
     ];
 
     const sortedPages = [...pages].sort((a, b) => b.volume - a.volume);
@@ -35,7 +35,7 @@ export function createCategoryIndex(
             {sortedPages.map((page) => (
               <Link
                 key={page.slug}
-                href={`/${category.slug}/${page.slug}`}
+                href={`/${category.slug}/${page.slug}/`}
                 className="block bg-gray-800/50 border border-gray-700 rounded-lg p-4 hover:border-green-500/50 hover:bg-gray-800 transition-all"
               >
                 <h2 className="text-lg font-medium text-green-300 mb-2">
@@ -65,7 +65,7 @@ export function createCategoryMetadata(category: CategoryConfig) {
       siteName: "MinecraftGuide.fr",
     },
     alternates: {
-      canonical: `https://minecraftguide.fr/${category.slug}`,
+      canonical: `https://minecraftguide.fr/${category.slug}/`,
     },
   };
 }

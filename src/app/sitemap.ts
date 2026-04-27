@@ -42,7 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Homepage
   entries.push({
-    url: BASE_URL,
+    url: `${BASE_URL}/`,
     lastModified: new Date(),
     changeFrequency: "weekly",
     priority: 1.0,
@@ -52,7 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const key of Object.keys(categoryPageMap)) {
     const { slug } = categoryPageMap[key];
     entries.push({
-      url: `${BASE_URL}/${slug}`,
+      url: `${BASE_URL}/${slug}/`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
@@ -64,7 +64,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const { slug: catSlug, pages } = categoryPageMap[key];
     for (const page of pages) {
       entries.push({
-        url: `${BASE_URL}/${catSlug}/${page.slug}`,
+        url: `${BASE_URL}/${catSlug}/${page.slug}/`,
         lastModified: new Date(),
         changeFrequency: "monthly",
         priority: 0.8,
@@ -74,7 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Blog index
   entries.push({
-    url: `${BASE_URL}/blog`,
+    url: `${BASE_URL}/blog/`,
     lastModified: new Date(),
     changeFrequency: "weekly",
     priority: 0.9,
@@ -83,7 +83,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Blog posts
   for (const post of blogPosts) {
     entries.push({
-      url: `${BASE_URL}/blog/${post.slug}`,
+      url: `${BASE_URL}/blog/${post.slug}/`,
       lastModified: new Date(post.dateModified),
       changeFrequency: "monthly",
       priority: 0.8,

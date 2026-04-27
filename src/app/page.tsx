@@ -13,38 +13,38 @@ const stats = [
 const popularGuides = [
   {
     title: "Comment faire une table de craft",
-    href: "/crafting/table-de-craft",
+    href: "/comment-faire/table-de-craft/",
     category: "Crafting",
   },
   {
     title: "Enchantement Protection",
-    href: "/enchantement/protection",
+    href: "/enchantement/protection/",
     category: "Enchantements",
   },
   {
     title: "Potion de force",
-    href: "/potion/potion-de-force",
+    href: "/potion/force/",
     category: "Potions",
   },
   {
-    title: "Guide du Warden",
-    href: "/mob/warden",
+    title: "Golem de cuivre",
+    href: "/mob/golem-cuivre/",
     category: "Mobs",
   },
   {
     title: "Ferme a fer automatique",
-    href: "/ferme/ferme-a-fer",
+    href: "/ferme/fer/",
     category: "Fermes",
   },
   {
-    title: "Commande /give",
-    href: "/commande/give",
+    title: "Commande /tp",
+    href: "/commande/tp/",
     category: "Commandes",
   },
 ];
 
 const categoryIcons: Record<string, string> = {
-  crafting: "C",
+  "comment-faire": "C",
   enchantement: "E",
   potion: "P",
   mob: "M",
@@ -55,6 +55,9 @@ const categoryIcons: Record<string, string> = {
   construction: "B",
   serveur: "S",
   mod: "Mo",
+  biome: "Bi",
+  structure: "St",
+  guide: "G",
 };
 
 export default function HomePage() {
@@ -76,13 +79,13 @@ export default function HomePage() {
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Link
-                href="/crafting"
+                href="/comment-faire/"
                 className="inline-flex items-center rounded-lg bg-mc-green px-6 py-3 text-sm font-semibold text-white shadow-lg hover:bg-mc-green-light transition-colors"
               >
                 Explorer les guides
               </Link>
               <Link
-                href="/enchantement"
+                href="/enchantement/"
                 className="inline-flex items-center rounded-lg border border-mc-border bg-mc-card px-6 py-3 text-sm font-semibold text-mc-text hover:bg-mc-card-hover transition-colors"
               >
                 Enchantements
@@ -123,7 +126,7 @@ export default function HomePage() {
           {categories.map((cat) => (
             <Link
               key={cat.slug}
-              href={`/${cat.slug}`}
+              href={`/${cat.slug}/`}
               className="group relative flex flex-col items-center rounded-xl border border-mc-border bg-mc-card p-6 text-center hover:bg-mc-card-hover hover:border-mc-green/40 transition-all duration-200"
             >
               <div className="flex h-14 w-14 items-center justify-center rounded-lg bg-mc-green/10 text-xl font-bold text-mc-accent group-hover:bg-mc-green/20 transition-colors">

@@ -38,18 +38,18 @@ export const metadata: Metadata = {
 };
 
 const navLinks = [
-  { name: "Crafting", href: "/comment-faire" },
-  { name: "Enchantements", href: "/enchantement" },
-  { name: "Potions", href: "/potion" },
-  { name: "Mobs", href: "/mob" },
-  { name: "Items", href: "/item" },
-  { name: "Minage", href: "/minage" },
-  { name: "Commandes", href: "/commande" },
-  { name: "Fermes", href: "/ferme" },
-  { name: "Constructions", href: "/construction" },
-  { name: "Serveurs", href: "/serveur" },
-  { name: "Mods", href: "/mod" },
-  { name: "Blog", href: "/blog" },
+  { name: "Crafting", href: "/comment-faire/" },
+  { name: "Enchantements", href: "/enchantement/" },
+  { name: "Potions", href: "/potion/" },
+  { name: "Mobs", href: "/mob/" },
+  { name: "Items", href: "/item/" },
+  { name: "Minage", href: "/minage/" },
+  { name: "Commandes", href: "/commande/" },
+  { name: "Fermes", href: "/ferme/" },
+  { name: "Constructions", href: "/construction/" },
+  { name: "Serveurs", href: "/serveur/" },
+  { name: "Mods", href: "/mod/" },
+  { name: "Blog", href: "/blog/" },
 ];
 
 export default function RootLayout({
@@ -228,19 +228,19 @@ function Footer() {
           </p>
           <div className="flex gap-6">
             <Link
-              href="/mentions-legales"
+              href="/mentions-legales/"
               className="text-sm text-mc-text-dim hover:text-mc-text-muted transition-colors"
             >
               Mentions legales
             </Link>
             <Link
-              href="/confidentialite"
+              href="/confidentialite/"
               className="text-sm text-mc-text-dim hover:text-mc-text-muted transition-colors"
             >
               Confidentialite
             </Link>
             <Link
-              href="/contact"
+              href="/contact/"
               className="text-sm text-mc-text-dim hover:text-mc-text-muted transition-colors"
             >
               Contact

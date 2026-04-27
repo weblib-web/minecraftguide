@@ -24,6 +24,9 @@ export async function generateMetadata({
   return {
     title: page.title,
     description: page.metaDescription,
+    alternates: {
+      canonical: `https://minecraftguide.fr/${cat.slug}/${page.slug}/`,
+    },
   };
 }
 
@@ -37,17 +40,17 @@ export default async function Page({
   if (!page) notFound();
 
   const breadcrumbs = [
-    { name: cat.name, href: `/${cat.slug}` },
-    { name: page.h1, href: `/${cat.slug}/${page.slug}` },
+    { name: cat.name, href: `/${cat.slug}/` },
+    { name: page.h1, href: `/${cat.slug}/${page.slug}/` },
   ];
 
   const relatedPages = craftingPages
     .filter((p) => page.content.relatedSlugs.includes(p.slug))
-    .map((p) => ({ title: p.h1, href: `/${cat.slug}/${p.slug}` }));
+    .map((p) => ({ title: p.h1, href: `/${cat.slug}/${p.slug}/` }));
 
   return (
     <>
-      <SchemaMarkup type="article" data={{ title: page.title, description: page.metaDescription, url: `https://minecraftguide.fr/${cat.slug}/${page.slug}` }} />
+      <SchemaMarkup type="article" data={{ title: page.title, description: page.metaDescription, url: `https://minecraftguide.fr/${cat.slug}/${page.slug}/` }} />
       <SchemaMarkup type="faq" data={{ items: page.content.faq }} />
       <article className="max-w-4xl mx-auto px-4 py-8">
         <Breadcrumbs items={breadcrumbs} />
