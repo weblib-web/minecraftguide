@@ -1700,53 +1700,6 @@ export const buildingPages: PageData[] = [
     }
   },
   {
-    slug: "cabane-arbres",
-    keyword: "cabane dans les arbres minecraft",
-    title: "Cabane dans les Arbres Minecraft : Tuto",
-    h1: "Construire une Cabane dans les Arbres Minecraft",
-    metaDescription: "Tuto simple pour construire une cabane dans les arbres dans Minecraft. Design compact, echelle d'acces et decoration forestiere.",
-    category: "building",
-    volume: 140,
-    content: {
-      intro: "La cabane dans les arbres est une variante plus compacte et simple de la maison arboricole. Accessible meme aux debutants, elle offre un refuge aerien charmant qui ne necessite que quelques minutes de construction. Parfaite pour une base temporaire ou un point d'observation en foret.",
-      sections: [
-        {
-          heading: "Choisir l'arbre support",
-          content: "Un chene ou un bouleau grand suffit pour une cabane simple. Pour un meilleur support, plantez 4 sapins en carre de 2x2 (ils poussent en un mega sapin avec de la farine d'os). Les arbres de jungle sont les plus grands naturellement. L'arbre doit avoir au moins 8 blocs de tronc pour placer la cabane a une hauteur confortable."
-        },
-        {
-          heading: "La plateforme et la cabane",
-          content: "A 6-8 blocs de hauteur, construisez une plateforme de 5x5 en planches autour du tronc. La cabane fait 3x3 blocs interieurs avec des murs de 2 blocs de haut en planches. Laissez un trou d'un bloc dans le sol pour l'echelle d'acces. Un toit simple en dalles de bois ferme la cabane. Placez un lit, un coffre et une table de craft a l'interieur."
-        },
-        {
-          heading: "Acces et securite",
-          content: "L'acces le plus simple est une echelle fixee au tronc de l'arbre, montant jusqu'a la trappe dans le plancher. Pour plus de securite, retirez les 2 blocs d'echelle les plus bas la nuit pour empecher les zombies de monter. Alternativement, des vignes le long du tronc offrent un acces naturel. Un point de vue sureleve permet de surveiller les alentours."
-        },
-        {
-          heading: "Decorations forestieres",
-          content: "Ajoutez des pots de fleurs aux rebords des fenetres, des lanternes suspendues sous la plateforme, et des barrieres comme balustrade sur la terrasse. Des vignes descendant de la plateforme integrent la cabane dans l'arbre. Un petit jardin suspendu avec des pots sur la terrasse ajoute de la couleur. Des feuilles supplementaires autour camouflent la cabane."
-        }
-      ],
-      tips: [
-        "Les mega sapins (2x2) offrent le meilleur support pour une cabane",
-        "Une trappe dans le plancher avec une echelle est l'acces le plus compact",
-        "Ajoutez des feuilles manuellement autour de la cabane pour le camouflage",
-        "Un balcon avec vue est le meilleur atout d'une cabane dans les arbres"
-      ],
-      faq: [
-        {
-          question: "Comment faire pousser un arbre assez grand pour une cabane ?",
-          answer: "Plantez 4 pousses de sapin en carre 2x2 et utilisez de la farine d'os sur l'une d'elles. Le mega sapin resultant est parfait. Autrement, les pousses de jungle donnent aussi de grands arbres. Assurez-vous qu'il y a assez d'espace libre au-dessus."
-        },
-        {
-          question: "Les mobs peuvent-ils atteindre une cabane dans les arbres ?",
-          answer: "Les zombies et creepers ne grimpent pas aux echelles. Les araignees peuvent grimper aux murs mais pas aux troncs d'arbre sans surface horizontale. Placez un surplomb d'un bloc autour de la plateforme pour bloquer les araignees. Les phantomes restent un danger si vous ne dormez pas."
-        }
-      ],
-      relatedSlugs: ["maison-arbre", "maison-bois", "maison-facile", "maison-simple", "maison-survie"]
-    }
-  },
-  {
     slug: "manoir",
     keyword: "manoir minecraft build",
     title: "Manoir Minecraft : Tuto Construction",
@@ -1946,53 +1899,6 @@ export const buildingPages: PageData[] = [
         }
       ],
       relatedSlugs: ["guide-construction", "maison-facile", "maison-medievale", "maison-japonaise", "plan-maison"]
-    }
-  },
-  {
-    slug: "jardin-japonais",
-    keyword: "jardin japonais minecraft",
-    title: "Jardin Japonais Minecraft : Tuto",
-    h1: "Construire un Jardin Japonais dans Minecraft",
-    metaDescription: "Tuto pour construire un jardin japonais zen dans Minecraft. Jardin sec, bassin, pont, lanternes en pierre et vegetation traditionnelle.",
-    category: "building",
-    volume: 170,
-    content: {
-      intro: "Le jardin japonais est un art de la nature maitrisee, et Minecraft offre tous les outils pour le recreer. Du jardin zen minimaliste au jardin de promenade luxuriant, chaque element a sa place et sa signification. Ce guide vous accompagne dans la creation d'un espace de serenite virtuelle.",
-      sections: [
-        {
-          heading: "Le jardin zen (karesansui)",
-          content: "Le jardin zen utilise du sable ou du gravier blanc comme base, representant l'eau. Posez des blocs de sable blanc sur une surface plane de 15x15 minimum. Des pierres (blocs de cobblestone ou d'andesite) sont placees en groupes impairs (3, 5, 7). Des lignes dans le sable sont simulees avec des rails caches sous des dalles de sable. Le tout est borde d'un muret bas en dalles de pierre."
-        },
-        {
-          heading: "Bassin et cours d'eau",
-          content: "Creusez un bassin irregular de 7x5 blocs sur 1-2 blocs de profondeur. Bordez-le de blocs de mousse et de pierres irregulieres. Remplissez d'eau et ajoutez des nenuphars. Un petit ruisseau (1 bloc de large) alimente le bassin depuis une fontaine en bambou (shishi-odoshi) : un piston cache derriere des bambous simule le mouvement. Des poissons tropicaux animent l'eau."
-        },
-        {
-          heading: "Vegetation et arbres",
-          content: "Les cerisiers en fleurs sont la star du jardin japonais. Plantez-en 2-3 autour du bassin. Des bambous en groupes creent des ecrans naturels. Des azalees en fleurs ajoutent de la couleur au printemps. Des blocs de mousse au sol avec de l'herbe haute simulent un tapis vegetal. Un pin taille (forme arrondie avec des feuilles de chene sculptees) est un classique japonais."
-        },
-        {
-          heading: "Structures et decorations",
-          content: "Les lanternes en pierre (toro) sont des piliers de cobblestone surmontes de dalles. Un pont courbe en bois de cerisier enjambe le bassin. Un torii rouge (beton rouge) marque l'entree sacree. Des pas japonais (dalles de pierre espacees) forment un chemin de promenade. Un banc en dalles de bois invite a la contemplation. Des barrieres de bambou delimitent les zones."
-        }
-      ],
-      tips: [
-        "L'asymetrie est la regle d'or du jardin japonais : evitez la symetrie parfaite",
-        "Les groupes de pierres doivent toujours etre en nombre impair (3, 5, 7)",
-        "Le son de l'eau est essentiel : ajoutez au moins un point d'eau avec un courant",
-        "Le jardin doit sembler naturel meme s'il est totalement construit a la main"
-      ],
-      faq: [
-        {
-          question: "Quels blocs utiliser pour les lanternes en pierre japonaises ?",
-          answer: "Empilez des murets de cobblestone (1 bloc), une dalle de pierre, un bloc de cobblestone moussue, et un toit en escaliers de pierre. Pour la lumiere, cachez une lanterne marine ou une bougie a l'interieur du bloc superieur en utilisant un escalier inverse."
-        },
-        {
-          question: "Comment faire un pin taille japonais ?",
-          answer: "Placez un tronc en buche de sapin de 4-5 blocs, ajoutez des branches horizontales en buche. Sur chaque branche, posez des blocs de feuilles en forme de nuage arrondi (ovales aplatis). Le pin japonais a des branches etagees avec des masses de feuillage distinctes."
-        }
-      ],
-      relatedSlugs: ["maison-japonaise", "temple-japonais", "pont", "deco-interieur", "idees-construction"]
     }
   },
   {
@@ -2746,6 +2652,132 @@ export const buildingPages: PageData[] = [
         { question: "Comment éviter que le pont ait l'air trop petit ?", answer: "Trois règles : (1) HAUTEUR du pont au-dessus du sol : 5-10 blocs minimum (sinon il paraît collé au sol). (2) PORTÉE entre les pylônes : 20+ blocs (sinon le suspension n'a pas de sens). (3) HAUTEUR des pylônes : 8+ blocs au-dessus du tablier (pour que les câbles aient une vraie courbure). Ces 3 mesures combinées donnent l'effet majestueux d'un pont suspendu." }
       ],
       relatedSlugs: ["pont", "tour-chateau", "phare", "aqueduc", "petit-pont"]
+    }
+  },
+  {
+    slug: "ecurie",
+    keyword: "ecurie minecraft",
+    title: "Écurie Minecraft : Guide de Construction",
+    h1: "Comment Construire une Écurie dans Minecraft",
+    metaDescription: "Construire une écurie Minecraft : 3 designs (rustique en bois, médiévale en pierre, moderne) avec dimensions, boxes, paddock et liste de blocs.",
+    category: "building",
+    volume: 1000,
+    content: {
+      intro: "L'écurie est le bâtiment indispensable pour héberger vos chevaux dans Minecraft : boxes individuels, allée centrale, mangeoires à foin, paddock extérieur, sellerie. Que ce soit une petite écurie rustique en bois pour 2-3 chevaux ou une grande écurie médiévale en pierre avec sellerie séparée, le principe reste le même : des boxes de 3x3 minimum, une allée centrale, une porte large pour les chevaux, et un paddock clôturé. Ce guide propose 3 designs (rustique en bois, médiéval en pierre, moderne) avec dimensions exactes et liste de blocs.",
+      sections: [
+        { heading: "Anatomie d'une écurie Minecraft", content: "Toute écurie a 5 éléments : (1) BOXES INDIVIDUELS (stalles) de 3x3 ou 4x4 blocs, un par cheval. (2) ALLÉE CENTRALE de 2-3 blocs de large entre les boxes. (3) MANGEOIRES À FOIN au fond de chaque box (1 botte de foin = 1 bloc de hay bale). (4) ABREUVOIR (1-2 blocs d'eau dans une auge en escaliers ou trappes). (5) PADDOCK extérieur clôturé pour le pré (10x10 minimum). Optionnel : SELLERIE pour stocker selles, armures et cartes (petite pièce 4x3 avec coffres et stands à armure). Capacité recommandée : 4-6 chevaux pour une écurie standard." },
+        { heading: "Design rustique en bois (30 min, 2-4 chevaux)", content: "Pour une écurie de ferme simple. STRUCTURE : 13x7 blocs au sol. MURS : planches de chêne sur 4 blocs de haut. TOIT : escaliers de chêne en double pente avec dalles au sommet. BOXES : 4 boxes de 3x3, séparés par des clôtures de bois (fences) à mi-hauteur (2 blocs) pour voir les chevaux. ALLÉE CENTRALE : 1 bloc de large en planches de chêne. PORTES : portes de bois larges (double porte) à chaque extrémité. Au fond de chaque box : 1 botte de foin + 1 trappe (sert d'abreuvoir avec eau). PADDOCK : 12x12 blocs clôturés avec portails. Total : ~150 blocs." },
+        { heading: "Design médiéval en pierre (1h, 6 chevaux)", content: "Pour une écurie de château ou ferme médiévale. STRUCTURE : 17x9 blocs. SOUBASSEMENT : 2 blocs de pierre brute + briques de pierre moussue. COLOMBAGES : poutres en bois sombre (planches de spruce) entre des sections en plâtre (laine blanche ou béton blanc). TOIT : briques rouges (red brick / nether brick) en double pente avec lucarne. BOXES : 6 boxes de 4x4, séparés par murs en briques de pierre à mi-hauteur. SELLERIE séparée : pièce 4x4 avec coffres, support à armure, cadres pour les selles. Lanternes suspendues à la charpente. PADDOCK : 15x15 avec clôtures en bois sombre. Total : ~400 blocs." },
+        { heading: "Design moderne (45 min, 4 chevaux)", content: "Pour une écurie contemporaine épurée. STRUCTURE : 13x9 blocs. MURS : béton blanc + accents béton noir. TOIT : plat en dalles de béton avec end rods comme spots LED. BOXES : 4 boxes de 3x4 fermés par portes en barreaux de fer (iron bars), sol en quartz lisse. ALLÉE CENTRALE : 2 blocs de large en concrete gris clair. ABREUVOIRS AUTOMATIQUES : 1 bloc d'eau source + redstone pour effet courant. ÉCLAIRAGE : lanternes marines (sea lanterns) au plafond. SELLERIE intégrée : mur de coffres + supports à armure. PADDOCK : enclos rectangulaire en clôtures sombres avec sol en herbe coupée. Total : ~250 blocs." }
+      ],
+      tips: ["Box minimum 3x3, idéal 4x4 : un cheval 1.5 bloc + 1 bloc de marge + mangeoire au fond", "Mangeoire = 1 botte de foin (hay bale) au fond de chaque box (les chevaux peuvent en manger pour se soigner)", "Abreuvoir = 1 trappe ouverte au-dessus d'1 bloc d'eau source (illusion d'auge)", "Allée centrale 2 blocs de large minimum : un cheval prend 1.5 bloc, il faut pouvoir manœuvrer", "Toujours clôturer le paddock avec des PORTAILS (fence gates), pas des portes (les chevaux ne franchissent pas)"],
+      faq: [
+        { question: "Quelle taille minimum pour un box à cheval Minecraft ?", answer: "3x3 blocs au minimum (un cheval mesure 1.5 bloc de large et 1.6 bloc de haut + il faut 1 bloc de marge pour qu'il bouge). 4x4 est plus confortable pour les grosses écuries. La hauteur minimum sous plafond est 3 blocs (sinon le cheval ne peut pas y entrer). Pour un poney ou un âne, 2x3 suffit." },
+        { question: "Comment empêcher mes chevaux de s'enfuir ?", answer: "Trois solutions : (1) CLÔTURES + PORTAILS (fence + fence gates) — les chevaux ne franchissent JAMAIS les clôtures. (2) LAISSE (lead) attachée à un poteau en clôture — le cheval reste dans un rayon de 10 blocs. (3) Murs de blocs pleins de 2 blocs de haut. Évitez les portes simples (door) : les chevaux ne les ouvrent pas mais peuvent se coincer." },
+        { question: "Combien de chevaux par écurie ?", answer: "4-6 chevaux suffisent pour 99% des joueurs : 1 cheval rapide pour voyager, 1 mule pour transport, 1-2 chevaux de combat avec armure, 1-2 de reproduction. Pour un ranch dédié, comptez 8-12 boxes. Au-delà, le lag d'entités devient problématique (chaque cheval consomme du tick CPU). Limite raisonnable : 16 chevaux dans un même chunk." }
+      ],
+      relatedSlugs: ["grange", "ferme-medievale", "etable", "ranch", "paddock"]
+    }
+  },
+  {
+    slug: "grange",
+    keyword: "grange minecraft",
+    title: "Grange Minecraft : Guide de Construction",
+    h1: "Comment Construire une Grange dans Minecraft",
+    metaDescription: "Construire une grange Minecraft : 3 designs (petite en bois, grande médiévale à colombages, grange rouge américaine) avec dimensions et liste de blocs.",
+    category: "building",
+    volume: 720,
+    content: {
+      intro: "La grange est le bâtiment central d'une ferme Minecraft : abriter les animaux, stocker le foin, ranger les outils. Qu'il s'agisse d'une petite grange en bois pour quelques vaches, d'une grande grange médiévale à colombages pour un village ou de la grange rouge américaine au toit gambrel iconique, le principe reste le même : une structure haute pour le fenil, une grande porte coulissante, un soubassement en pierre, et souvent un silo annexe. Ce guide propose 3 designs (petite en bois, médiévale à colombages, rouge américaine) avec dimensions exactes et liste de blocs.",
+      sections: [
+        { heading: "Anatomie d'une grange Minecraft", content: "Toute grange a 5 éléments : (1) STRUCTURE haute (6-10 blocs au faîte) — c'est ce qui distingue la grange d'une étable. (2) FENIL (étage à foin) accessible par une trappe ou échelle, rempli de bottes de foin. (3) PORTE PRINCIPALE LARGE (double porte de 2x3 blocs minimum) pour faire entrer charrettes ou animaux. (4) SOUBASSEMENT en pierre ou cobblestone sur 1-2 blocs de haut (humidité, rongeurs). (5) CHARPENTE APPARENTE en poutres de bois sombre. Optionnel : SILO annexe (tour cylindrique en pierre pour le grain), LUCARNE sur le toit, GIROUETTE en haut. Différence avec étable/écurie : la grange est PLUS HAUTE et a un FENIL." },
+        { heading: "Petite grange en bois (30 min)", content: "Pour une ferme rustique. STRUCTURE : 9x7 blocs au sol, 5 blocs de haut au mur + 3 au faîte. SOUBASSEMENT : 1 rang de cobblestone. MURS : planches de spruce sur 4 blocs. POUTRES apparentes verticales en logs de spruce tous les 3 blocs. TOIT : escaliers de chêne en simple pente, dalles au faîte. PORTE : double porte de bois (2x2) en façade. FENIL : étage de 2 blocs accessible par échelle, rempli de 8-12 bottes de foin (hay bale). LUCARNE : 1 ouverture en triangle au pignon. Animaux : 4 vaches ou 6 moutons. Total : ~120 blocs." },
+        { heading: "Grange médiévale à colombages (1h30)", content: "Pour un village médiéval ou une ferme seigneuriale. STRUCTURE : 15x11 blocs, 6 blocs au mur + 5 au faîte. SOUBASSEMENT : 2 rangs de pierre brute + cobblestone moussue. COLOMBAGES : structure en X et poutres horizontales en logs de spruce sombre, sections remplies en plâtre (laine blanche ou béton blanc). TOIT : briques de pierre moussue ou pavés en double pente avec une lucarne. CHARPENTE INTÉRIEURE : poutres apparentes en logs de spruce. FENIL massif sur tout l'étage avec 30+ bottes de foin. SILO ANNEXE : tour cylindrique 5x5 en pierre, 8 blocs de haut, toit conique en escaliers. PORTE COULISSANTE : double porte large en chêne sombre. Animaux : 8-12 vaches/moutons. Total : ~500 blocs." },
+        { heading: "Grange rouge américaine (1h, style Red Barn)", content: "Le grand classique iconique. STRUCTURE : 13x9 blocs, 5 blocs au mur + 5 au faîte (toit gambrel à double pente). MURS : béton rouge + bandes verticales de béton blanc tous les 3 blocs (effet bardage). TOIT GAMBREL : 2 pentes par côté (la pente du bas est plus raide que celle du haut), réalisé en escaliers de spruce. PORTE COULISSANTE : grande double porte (3x3) en planches de chêne sombre encadrée de poutres blanches. LUCARNE TRIANGULAIRE en façade avec accès au fenil. GIROUETTE en haut du faîte (poteau + clôture + drapeau ou bannière). Animaux : 6-8 vaches. Total : ~350 blocs." }
+      ],
+      tips: ["Ce qui fait une grange = HAUTEUR + FENIL (sinon c'est une étable). Au moins 6 blocs au faîte.", "Bottes de foin (hay bales) au fenil : non seulement décoratives, elles servent aussi à nourrir vaches/moutons/chevaux", "Le toit gambrel (double pente par côté) est la signature de la grange rouge américaine", "Soubassement en pierre obligatoire : c'est ce qui distingue une grange d'une simple cabane en bois", "Ajoutez un silo annexe (tour cylindrique 5x5 en pierre) pour un effet ferme premium"],
+      faq: [
+        { question: "Quelle taille pour une grange dans Minecraft ?", answer: "Petite grange : 9x7 minimum, 5 blocs de haut. Grange standard : 13x9, 6-8 blocs de haut. Grande grange médiévale : 15x11+ avec un fenil sur tout l'étage. Le ratio crucial est : la grange doit être au moins 1.5x plus haute qu'une maison classique pour le fenil." },
+        { question: "Comment faire un toit gambrel (double pente) Minecraft ?", answer: "Le toit gambrel a 2 pentes par côté : la pente inférieure est raide (1 bloc horizontal pour 2 verticaux), la supérieure douce (1 pour 1). En Minecraft : (1) Premier rang d'escaliers en pente forte sur 3 blocs de haut, (2) cassure avec des dalles en saillie, (3) deuxième rang d'escaliers en pente douce vers le faîte. C'est la signature de la grange rouge américaine." },
+        { question: "Quels animaux loger dans la grange ?", answer: "Vaches (1 box ou enclos central), moutons (4-8 dans un enclos commun), poules (perchoirs en bas), cochons. Évitez les chevaux dans une grange (ils méritent leur écurie dédiée — voir notre guide écurie). Capacité standard : 8-12 animaux. Au-delà, le lag d'entités devient problématique." }
+      ],
+      relatedSlugs: ["ecurie", "ferme-medievale", "etable", "moulin-a-vent", "puits"]
+    }
+  },
+  {
+    slug: "jardin-japonais",
+    keyword: "jardin japonais minecraft",
+    title: "Jardin Japonais Minecraft : Guide de Construction",
+    h1: "Comment Construire un Jardin Japonais dans Minecraft",
+    metaDescription: "Créer un jardin japonais zen dans Minecraft : 3 styles (karesansui sec, tsukiyama avec colline, chaniwa de thé) avec lanternes, bassin et liste de blocs.",
+    category: "building",
+    volume: 260,
+    content: {
+      intro: "Le jardin japonais est l'un des projets de construction les plus zen et les plus méditatifs de Minecraft : sable blanc ratissé, rochers symboliques, lanternes de pierre, cerisiers en fleurs, bassins à carpes koï. Loin du jardin occidental rempli de fleurs, le jardin japonais joue sur l'asymétrie, le minéral et le vide. Ce guide propose 3 styles authentiques (karesansui sec, tsukiyama avec colline, chaniwa de thé) avec le vocabulaire japonais traditionnel et des dimensions précises pour chaque type.",
+      sections: [
+        { heading: "Anatomie et lexique d'un jardin japonais", content: "Tout jardin japonais utilise un vocabulaire précis : (1) KARESANSUI = jardin sec de pierres et sable ratissé (style zen). (2) TSUKIYAMA = jardin avec colline artificielle et ruisseau. (3) CHANIWA = jardin de thé avec pavillon. (4) TŌRŌ = lanterne de pierre traditionnelle. (5) CHŌZUBACHI = vasque à eau pour purification. (6) SHISHI-ODOSHI = claqueur de bambou anti-cervidés. (7) KOI POND = bassin à carpes japonaises. (8) TORII = portail rouge sacré. (9) BONSAÏ = arbre miniature. Règle d'or : asymétrie + nombres impairs (3, 5, 7 rochers) + zones de vide. Évitez les fleurs colorées, privilégiez le vert, le gris et le sable." },
+        { heading: "Karesansui — Jardin sec zen (45 min)", content: "Pour méditer. STRUCTURE : 12x12 blocs entourés d'un mur bas (1 bloc) en pierre moussue. SOL : entièrement en sable blanc (sand) avec motifs concentriques en sable rouge (red sand) autour de 3-5 rochers. ROCHERS : groupes asymétriques de cobblestone moussue, 3 hauteurs différentes (1, 2 et 3 blocs). DÉCORATION : 1 lanterne de pierre tōrō (4 blocs : socle pavé moussu + colonne pierre + chapiteau dalles + lanterne au sommet) dans un coin. PAS DE PLANTES, PAS D'EAU — c'est le principe du karesansui. Optionnel : 1 érable rouge (red autumn maple, leaves of acacia) en arrière-plan. Total : ~80 blocs." },
+        { heading: "Tsukiyama — Colline et ruisseau (1h)", content: "Le jardin paysager classique. STRUCTURE : 16x16 blocs. COLLINE artificielle au fond : 4-5 blocs de haut en terre + grass blocks + tapis de mousse (moss carpet). RUISSEAU descendant de la colline : 1 bloc de large d'eau qui serpente sur 8-10 blocs et finit dans un BASSIN À KOÏ (4x6 blocs, profondeur 2). PONT JAPONAIS rouge en arc enjambant le ruisseau (voir notre guide pont-japonais). VÉGÉTATION : 1 cerisier (cherry tree, 1.20+) en fleurs au centre, 2 érables rouges en arrière-plan, bambous (bamboo) le long du ruisseau, mousse au sol. 2 LANTERNES tōrō encadrant le pont. SENTIER de pas japonais en dalles d'andesite. Total : ~250 blocs." },
+        { heading: "Chaniwa — Jardin de thé (1h15)", content: "Pour la cérémonie du thé. STRUCTURE : 14x14 blocs. SENTIER ROJI en dalles plates de pierre (stone slabs) qui serpente vers un PAVILLON DE THÉ (chashitsu) au fond : 5x5 blocs en bois sombre (planches de spruce), toit en chaume (paille = hay bale) en pente douce, intérieur tatami (laine jaune ou tan terracotta) avec un foyer. CHŌZUBACHI à l'entrée : vasque à eau (cuve de chaudron remplie d'eau) avec une louche en bambou (1 bambou suspendu). TŌRŌ haute (5 blocs) près du pavillon. SHISHI-ODOSHI : claqueur de bambou (mécanisme avec piston + bambou + eau qui retombe). VÉGÉTATION : mousse partout, fougères, bambous denses, 1 érable. Total : ~300 blocs." }
+      ],
+      tips: ["Asymétrie obligatoire — un jardin japonais N'EST JAMAIS symétrique. Décalez tout sur un côté.", "Nombres impairs : 3, 5 ou 7 rochers (jamais pairs). Idem pour lanternes et arbres.", "Pas de fleurs colorées : seul le rose du cerisier et le rouge des érables sont admis", "Sable blanc + sable rouge en motifs concentriques = signature du karesansui", "Cerisier (cherry tree, Minecraft 1.20+) : utilisez des cherry leaves et cherry log — c'est le meilleur ajout récent pour ce style"],
+      faq: [
+        { question: "Quelle taille minimum pour un jardin japonais Minecraft ?", answer: "10x10 blocs minimum pour un karesansui simple. 12x12 pour un jardin équilibré. 16x16+ pour un tsukiyama complet avec colline et ruisseau. En dessous de 10x10, l'effet de profondeur et de méditation ne fonctionne pas. Préférez la qualité à la taille : un karesansui de 12x12 bien fait vaut mieux qu'un grand jardin bâclé." },
+        { question: "Quels blocs pour le sable blanc zen ?", answer: "Sable normal (sand) pour le blanc, sable rouge (red sand) pour les motifs ou le bord. Le sable colorisé clair (terracotta blanche aplanie) marche aussi mais perd la texture granuleuse. Évitez le quartz (trop lisse) et le concrete blanc (trop industriel). Pour ratisser visuellement : alternez sand + red sand en bandes parallèles." },
+        { question: "Comment faire un cerisier Minecraft ?", answer: "Depuis Minecraft 1.20, les cerisiers (cherry tree) génèrent naturellement dans le biome 'Cherry Grove'. Sinon, plantez un cherry sapling sur de l'herbe et attendez la croissance. Pour faire un cerisier custom : log de cerisier (cherry log) + cherry leaves rosées + structure asymétrique en parasol (large en haut, fin en bas). Comptez ~30 leaves + 8 logs pour un beau cerisier." }
+      ],
+      relatedSlugs: ["pont-japonais", "pont-suspendu", "pagode", "torii", "fontaine"]
+    }
+  },
+  {
+    slug: "pont-japonais",
+    keyword: "pont japonais minecraft",
+    title: "Pont Japonais Minecraft : Guide de Construction",
+    h1: "Comment Construire un Pont Japonais dans Minecraft",
+    metaDescription: "3 designs de pont japonais Minecraft : taiko-bashi rouge en arc, yatsuhashi zigzag, sori-bashi couvert. Dimensions, blocs et tutoriel pas-à-pas.",
+    category: "building",
+    volume: 210,
+    content: {
+      intro: "Le pont japonais est un projet à la fois esthétique et technique dans Minecraft : courbure en arc rouge vermillon, planches en zigzag au-dessus d'un marais, ou pont couvert avec toit de pagode. Loin du pont occidental utilitaire, le pont japonais est SACRÉ — c'est un passage symbolique du monde profane vers le monde divin. Ce guide propose 3 designs traditionnels (taiko-bashi en arc, yatsuhashi en zigzag, sori-bashi couvert) avec leur vocabulaire japonais authentique et des dimensions précises.",
+      sections: [
+        { heading: "Anatomie et lexique d'un pont japonais", content: "Trois grandes familles : (1) TAIKO-BASHI = pont en arc convexe (forme de tambour), souvent rouge vermillon, le plus iconique. (2) YATSUHASHI = pont en zigzag à 8 planches, plat, traverse les marais et zones humides. (3) SORI-BASHI = pont en arc COUVERT avec toit de pagode. (4) KŌRAI-BASHI = pont en pierre simple. Éléments communs : TABLIER (planche de marche), GARDE-CORPS en bambou ou barreaux de fer, BALUSTRADE rouge (la couleur sacrée), parfois des LANTERNES TŌRŌ aux extrémités. La couleur ROUGE VERMILLON (red concrete ou red terracotta dans Minecraft) symbolise la protection contre les démons et est le marqueur visuel n°1." },
+        { heading: "Taiko-bashi rouge en arc (30 min)", content: "Le pont iconique. PORTÉE : 9 blocs entre les 2 berges. ARC : le pont monte de 3 blocs à son sommet. CONSTRUCTION étape par étape : (1) Posez le tablier en planches de cerisier teintées en rouge (utilisez du red concrete pour pur rouge, ou red terracotta pour un rouge plus mat) en suivant une courbe : bloc 1 et 9 au niveau de la berge, blocs 2-3 et 7-8 à +1, blocs 4-6 à +3 (sommet). (2) Utilisez des escaliers de red concrete pour les transitions de hauteur (escaliers à l'envers en dessous pour un effet bombé). (3) GARDE-CORPS : barreaux de fer (iron bars) de chaque côté + balustrade haute en escaliers rouges inversés. (4) ENTRÉES : 2 piliers de pierre noire à chaque extrémité avec une petite lanterne dessus. LARGEUR : 3 blocs. Idéal au-dessus d'un bassin à koï. Total : ~60 blocs." },
+        { heading: "Yatsuhashi en zigzag (45 min)", content: "Pour traverser un marais ou un jardin de fleurs. STRUCTURE : 8 planches en ZIGZAG (z-shape) sur 16 blocs de long total, plat (pas d'arc). PROPORTIONS classiques : alternance de planches de 3 blocs (avancée) puis virage à 90° puis 3 blocs encore. PLANCHES : dalles de chêne sombre ou de spruce posées sur poteaux en bois (logs verticaux dans l'eau). PILIERS : logs dans l'eau, espacés de 2 blocs, qui supportent les planches. PAS DE GARDE-CORPS (volonté esthétique : on est proche de l'eau). DÉCO : iris violets (allium) aux extrémités, lotus (lily pads) sur l'eau autour. LARGEUR : 1 bloc seulement. Idéal pour un bord de bassin avec fleurs. Total : ~80 blocs." },
+        { heading: "Sori-bashi couvert avec toit pagode (1h)", content: "Le pont premium avec toit. PORTÉE : 11 blocs. STRUCTURE : tablier en arc (comme taiko-bashi) en planches de cerisier rouges. POTEAUX : 6 poteaux verticaux (logs de cerisier) sur le pont, 4 blocs de haut, espacés de 2. TOIT EN PAGODE : double pente avec retroussis aux extrémités, en escaliers de spruce + dalles, courbé vers le haut aux 4 coins (pose en escaliers à 45°). LANTERNES SUSPENDUES : 3 lanternes (lantern blocks) accrochées à la charpente par des chaînes (chains). GARDE-CORPS : balustrade en barreaux de bambou (bamboo planks) à mi-hauteur. ENTRÉES : 2 grands poteaux torii rouges encadrent les accès. LARGEUR : 3 blocs. Idéal en pièce maîtresse d'un jardin japonais. Total : ~200 blocs." }
+      ],
+      tips: ["Couleur ROUGE VERMILLON obligatoire pour taiko-bashi : red concrete (pur) ou red terracotta (mat)", "Pour la courbure de l'arc, utilisez des escaliers à l'envers SOUS le tablier pour bomber la forme", "Le zigzag du yatsuhashi DOIT être asymétrique (planches de longueurs inégales) — c'est typiquement japonais", "Toit de pagode : retroussez les coins en posant les escaliers à 45° vers le ciel", "Encadrez le pont avec 2 lanternes de pierre tōrō ou un torii rouge pour l'effet 'passage sacré'"],
+      faq: [
+        { question: "Comment faire un pont en arc dans Minecraft ?", answer: "Utilisez des escaliers de bloc plein (red concrete stairs ou similar) posés normalement pour la transition montante, puis bloc plein au sommet, puis escaliers inversés pour la descente. Pour bomber le dessous : ajoutez des escaliers inversés sous le tablier. Portée typique : 9 blocs avec 3 blocs de hauteur au sommet (ratio 3:1). Plus la portée est grande, plus l'arc doit monter haut." },
+        { question: "Quel bloc pour le rouge vermillon japonais ?", answer: "Trois options : (1) RED CONCRETE — rouge pur, brillant, idéal pour un pont neuf. (2) RED TERRACOTTA — rouge mat, plus organique, idéal pour un pont ancien. (3) RED WOOL — pas recommandé (risque d'incendie + texture trop fibreuse). Le red concrete est le standard moderne. Comptez 30-50 blocs pour un taiko-bashi de 9 blocs de portée." },
+        { question: "Pourquoi le pont yatsuhashi a 8 planches ?", answer: "Yatsuhashi (八橋) signifie littéralement 'pont à 8 ponts' en japonais. La tradition vient des Contes d'Ise (10ème siècle) où un voyageur traverse un marais sur 8 planches en zigzag. Le 8 est sacré au Japon (chiffre porte-bonheur). En Minecraft, vous pouvez faire 6-10 sections selon la place, mais 8 est le canon. Le zigzag oblige le visiteur à ralentir et contempler — c'est le vrai but du jardin japonais." }
+      ],
+      relatedSlugs: ["jardin-japonais", "pont-suspendu", "pagode", "torii", "pont"]
+    }
+  },
+  {
+    slug: "cabane-dans-les-arbres",
+    keyword: "cabane dans les arbres minecraft",
+    title: "Cabane dans les Arbres Minecraft : Guide de Construction",
+    h1: "Comment Construire une Cabane dans les Arbres dans Minecraft",
+    metaDescription: "Construire une cabane dans un arbre Minecraft : 3 designs (rustique simple, multi-niveaux jungle Ewoks, moderne en cerisier) avec passerelles et tutoriel.",
+    category: "building",
+    volume: 170,
+    content: {
+      intro: "La cabane dans les arbres est l'un des projets les plus magiques de Minecraft : plate-forme suspendue à 8 blocs du sol, passerelles qui relient plusieurs arbres, ponts de cordes oscillants, vue panoramique sur la jungle. Du modeste refuge rustique sur un chêne unique à la cité multi-niveaux dans 4 arbres connectés style Ewoks de Star Wars, le principe est le même : un arbre support solide, une plate-forme principale, un système d'accès (échelle, scaffolding ou ladder + trappe), et idéalement des passerelles pour étendre l'espace. Ce guide propose 3 designs (rustique simple, multi-niveaux jungle, moderne en cerisier) avec dimensions exactes.",
+      sections: [
+        { heading: "Anatomie d'une cabane dans les arbres Minecraft", content: "Toute cabane dans les arbres a 5 éléments : (1) ARBRE SUPPORT solide — chêne sombre (dark oak) ou jungle pour la taille, cerisier pour l'esthétique. Évitez le bouleau (trop fin). (2) PLATE-FORME PRINCIPALE de 5x5 minimum, à 6-10 blocs de hauteur. (3) ACCÈS — échelle (ladder) le long du tronc, scaffolding démontable, ou trappe sous la plate-forme. (4) GARDE-CORPS en clôtures (fences) ou barreaux de fer pour ne pas tomber. (5) TOIT en pente ou plat. Optionnel mais magique : PASSERELLES vers d'autres arbres, PONTS DE CORDES (chaînes + planches), TROIS NIVEAUX étagés, TERRASSE extérieure. Hauteur recommandée : 8-12 blocs (en dessous, perd le côté 'aérien' ; au-dessus, pénible à monter)." },
+        { heading: "Cabane rustique simple (30 min)", content: "Pour un refuge solo. ARBRE : 1 chêne sombre ou chêne classique mature (au moins 7 blocs de haut). PLATE-FORME : 7x7 blocs en planches de chêne à 8 blocs de hauteur, supportée visuellement par 4 logs verticaux qui descendent de la plate-forme jusqu'au sol (poteaux décoratifs). MURS : planches de chêne sur 3 blocs de haut, 1 fenêtre en verre sur chaque côté, 1 porte côté arbre. TOIT : escaliers en chêne en double pente (4 blocs au faîte). ACCÈS : échelle (ladder) sur le tronc principal + trappe au sol de la cabane. INTÉRIEUR : 1 lit, 1 coffre, 1 table de craft, 1 four, 2 torches. GARDE-CORPS extérieur en clôtures de chêne sur la terrasse 2x7 devant la porte. Total : ~150 blocs." },
+        { heading: "Multi-niveaux jungle style Ewoks (1h30)", content: "La cité dans les arbres. ARBRES : 4 troncs de jungle géants espacés de 8-12 blocs. NIVEAU 1 — Plate-forme principale 9x9 à 10 blocs de hauteur, en planches de jungle. NIVEAU 2 — Salon-chambre 7x7 à 14 blocs. NIVEAU 3 — Observatoire 5x5 à 18 blocs avec balcon. PASSERELLES : ponts de 1 bloc de large entre les arbres, en planches de jungle, garde-corps en clôtures. PONTS DE CORDES : chaînes (chains) suspendues de chaque côté, planches de jungle entre les deux. ACCÈS PRINCIPAL : tour de scaffolding démontable au sol + lianes (vines) qui pendent depuis chaque plate-forme (esthétique). DÉCORATION : torches partout, lanternes suspendues à des chaînes, drapeaux/bannières aux couleurs warm (orange, rouge), feuillage de jungle dense laissé autour. LIANES qui pendent partout. Total : ~600 blocs." },
+        { heading: "Cabane moderne en cerisier (45 min)", content: "L'esthétique japonaise contemporaine. ARBRE : cerisier (cherry tree, Minecraft 1.20+) avec ses leaves rosées intactes autour. PLATE-FORME : 9x9 blocs à 7 blocs de hauteur, en cherry planks (planches de cerisier rosées). MURS : alternance de planches de cerisier et de béton blanc, avec BAIES VITRÉES PLEINES (verre simple sans cadre) sur 2 façades complètes (sol au plafond). TOIT : plat en dalles de béton avec end rods comme spots LED. TERRASSE : extension 4x9 en cherry slabs (dalles cerisier) avec garde-corps en barreaux de fer noirs. ACCÈS : escalier en spirale extérieur en cherry stairs autour du tronc. INTÉRIEUR épuré : tatamis (laine claire), 1 cheminée centrale (campfire avec dalles de pierre autour), peu de meubles. Lanternes marines au plafond pour éclairage diffus. Total : ~350 blocs." }
+      ],
+      tips: ["Choisissez chêne sombre (dark oak) ou jungle pour des troncs assez gros — évitez bouleau (trop fin)", "Hauteur idéale : 8-12 blocs au-dessus du sol (en dessous = pas magique, au-dessus = chiant à monter)", "Toujours installer une trappe (trapdoor) au point d'entrée pour pouvoir la fermer la nuit (sécurité mobs)", "Le scaffolding est le meilleur accès en construction — démontable + monte vite. Remplacez par une échelle après", "Ajoutez des lianes (vines) qui pendent de la plate-forme : c'est ce qui fait passer une cabane normale en cabane d'aventure"],
+      faq: [
+        { question: "Quel arbre Minecraft choisir pour une cabane ?", answer: "Top 3 : (1) CHÊNE SOMBRE (dark oak) — gros tronc 2x2, parfait pour cabane solo. (2) JUNGLE — tronc 2x2 et grande hauteur, idéal pour multi-niveaux. (3) CERISIER (1.20+) — esthétique avec floraison rose. À ÉVITER : bouleau (trop fin), épicéa pin (sapins coniques peu adaptés). L'acacia peut marcher pour un style savane original." },
+        { question: "Comment monter à la cabane sans tomber ?", answer: "Quatre options : (1) ÉCHELLE (ladder) le long du tronc — le plus discret. (2) SCAFFOLDING — montée rapide pour la construction, démontable après. (3) ESCALIER en spirale autour du tronc — élégant pour design moderne. (4) ASCENSEUR à eau (bulle de soul sand sous l'eau) — fonctionnel mais demande de la redstone. Toujours ajouter une TRAPPE à l'entrée pour la fermer la nuit." },
+        { question: "Comment faire une passerelle entre 2 arbres ?", answer: "Trois designs : (1) POUTRE EN BOIS — simple ligne de planches de 1-2 blocs de large, garde-corps en clôtures. (2) PONT DE CORDES — chaînes (chains) en bordure + planches au milieu. Plus immersif. (3) PONT SUSPENDU MINIATURE — voir notre guide pont-suspendu pour la version épique avec pylônes et câbles. Distance optimale entre les arbres : 6-12 blocs (en dessous trop court, au-dessus le pont a l'air bancal)." },
+        { question: "À quelle hauteur construire une cabane dans un arbre ?", answer: "8-12 blocs au-dessus du sol est l'idéal. À 5-7 blocs, l'effet 'aérien' ne fonctionne pas. Au-dessus de 15 blocs, monter devient pénible et les mobs au sol passent inaperçus (c'est un avantage sécurité mais éloigne du gameplay). Pour multi-niveaux : niveau 1 à 8 blocs, niveau 2 à 13, niveau 3 à 18 — étagés de 5 blocs." }
+      ],
+      relatedSlugs: ["pont-suspendu", "maison-jungle", "maison-bois", "cabane-survie", "passerelle"]
     }
   }
 
